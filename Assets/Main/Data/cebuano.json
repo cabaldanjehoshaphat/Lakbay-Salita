@@ -1,0 +1,702 @@
+[
+  {
+    "word": "AKO",
+    "translation": "I, me",
+    "definition": "First person singular pronoun; I or me.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ABO",
+    "translation": "ash",
+    "definition": "The gray powder left behind after something burns; also the color gray.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "AMO",
+    "translation": "boss, master",
+    "definition": "An employer, master, or the person in charge.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ANI",
+    "translation": "harvest",
+    "definition": "The harvest; the gathering of a crop such as rice or corn.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "APO",
+    "translation": "grandchild",
+    "definition": "The child of one's son or daughter.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ASO",
+    "translation": "smoke",
+    "definition": "Smoke; the cloud given off by something burning.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ASA",
+    "translation": "where",
+    "definition": "Question word asking where someone is going or will be.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ARI",
+    "translation": "here",
+    "definition": "In or to this place, near the speaker.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "BAO",
+    "translation": "turtle",
+    "definition": "A land or freshwater turtle.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "IRO",
+    "translation": "dog",
+    "definition": "A dog.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ILO",
+    "translation": "orphan",
+    "definition": "A person who has lost one or both parents.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "IMO",
+    "translation": "your, yours",
+    "definition": "Second person singular possessive pronoun; your or yours.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ORO",
+    "translation": "gold",
+    "definition": "Gold, the precious yellow metal.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "PAA",
+    "translation": "thigh, leg",
+    "definition": "The thigh or upper leg, from the hip to the knee.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "PAN",
+    "translation": "bread",
+    "definition": "Bread, usually the kind bought from a bakery.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "TSA",
+    "translation": "tea",
+    "definition": "Tea; the hot drink made from steeped tea leaves.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "TUO",
+    "translation": "right",
+    "definition": "The right side or right hand, as opposed to left.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "UBO",
+    "translation": "cough",
+    "definition": "A cough; to cough.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ULO",
+    "translation": "head",
+    "definition": "The head of a person or animal.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "UMA",
+    "translation": "farm",
+    "definition": "A farm or field where crops are raised.",
+    "letters": 3,
+    "language": "Cebuano"
+  },
+  {
+    "word": "BATA",
+    "translation": "child",
+    "definition": "A child or young person; also used to mean young.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "DAKO",
+    "translation": "big",
+    "definition": "Large in size, amount, or importance.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ITOM",
+    "translation": "black",
+    "definition": "Black; dark in color.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "LAMI",
+    "translation": "delicious",
+    "definition": "Tasty; good in flavor.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "MATA",
+    "translation": "eye",
+    "definition": "The eye; also means to wake up.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "PUTI",
+    "translation": "white",
+    "definition": "White; light or pale in color.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ASIN",
+    "translation": "salt",
+    "definition": "Salt, used to season and preserve food.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "DILA",
+    "translation": "tongue",
+    "definition": "The tongue.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "DUGO",
+    "translation": "blood",
+    "definition": "Blood; also to bleed.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "DUHA",
+    "translation": "two",
+    "definition": "The number two.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "INIT",
+    "translation": "hot",
+    "definition": "Hot; heat or warmth.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ISDA",
+    "translation": "fish",
+    "definition": "Fish, whether alive or as food.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "KAON",
+    "translation": "eat",
+    "definition": "To eat; to take food.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "LIMA",
+    "translation": "five",
+    "definition": "The number five.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "TIIL",
+    "translation": "foot",
+    "definition": "The foot or leg.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "TULO",
+    "translation": "three",
+    "definition": "The number three; also means to drip or leak.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "UPAT",
+    "translation": "four",
+    "definition": "The number four.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "UNOM",
+    "translation": "six",
+    "definition": "The number six.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "WALO",
+    "translation": "eight",
+    "definition": "The number eight.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "TAWO",
+    "translation": "person",
+    "definition": "A person or human being; people in general.",
+    "letters": 4,
+    "language": "Cebuano"
+  },
+  {
+    "word": "TUBIG",
+    "translation": "water",
+    "definition": "Water, for drinking, washing, and cooking.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "BALAY",
+    "translation": "house",
+    "definition": "A house or home where a family lives.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "BUKID",
+    "translation": "mountain",
+    "definition": "A mountain; also the upland farming country.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "BULAK",
+    "translation": "flower",
+    "definition": "A flower or blossom.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "DALAN",
+    "translation": "road",
+    "definition": "A road, street, path, or way.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "GABII",
+    "translation": "night",
+    "definition": "Night or evening, after the sun has set.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "GUTOM",
+    "translation": "hungry",
+    "definition": "Hungry; the feeling of needing food.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "KAMOT",
+    "translation": "hand",
+    "definition": "The hand.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "MANOK",
+    "translation": "chicken",
+    "definition": "A chicken, rooster, or fowl.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ADLAW",
+    "translation": "sun, day",
+    "definition": "The sun; also a day of the week.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ASAWA",
+    "translation": "wife",
+    "definition": "A wife or spouse.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "DAGAT",
+    "translation": "sea",
+    "definition": "The sea or ocean.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "KAHOY",
+    "translation": "tree",
+    "definition": "A tree; also wood or timber.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "MAAYO",
+    "translation": "good",
+    "definition": "Good, kind, or well; used in greetings such as good morning.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "SABAW",
+    "translation": "soup",
+    "definition": "Soup or broth served with a meal.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ITLOG",
+    "translation": "egg",
+    "definition": "An egg, especially a chicken egg.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "BUHOK",
+    "translation": "hair",
+    "definition": "The hair on a person's head.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "TIYAN",
+    "translation": "belly",
+    "definition": "The stomach or belly.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ILONG",
+    "translation": "nose",
+    "definition": "The nose.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "TUHOD",
+    "translation": "knee",
+    "definition": "The knee.",
+    "letters": 5,
+    "language": "Cebuano"
+  },
+  {
+    "word": "BABAYE",
+    "translation": "woman",
+    "definition": "A woman or female person.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "BUNTAG",
+    "translation": "morning",
+    "definition": "Morning, from sunrise until about noon.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "LANGIT",
+    "translation": "sky, heaven",
+    "definition": "The sky overhead; also heaven.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "HIGALA",
+    "translation": "friend",
+    "definition": "A friend or close companion.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "KABAYO",
+    "translation": "horse",
+    "definition": "A horse.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "KALAYO",
+    "translation": "fire",
+    "definition": "Fire or flame.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "KAMOTE",
+    "translation": "sweet potato",
+    "definition": "The sweet potato, a common root crop.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "NGIPON",
+    "translation": "tooth",
+    "definition": "A tooth, or the teeth.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "SALAPI",
+    "translation": "money",
+    "definition": "Money, cash, or coin.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "TAMBAL",
+    "translation": "medicine",
+    "definition": "Medicine or a remedy for illness.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "DAGHAN",
+    "translation": "many",
+    "definition": "Many; a large number or amount.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "KUSINA",
+    "translation": "kitchen",
+    "definition": "The kitchen, where food is prepared and cooked.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "LAMESA",
+    "translation": "table",
+    "definition": "A table for eating or working.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "SAGING",
+    "translation": "banana",
+    "definition": "The banana plant and its fruit.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "MANGGA",
+    "translation": "mango",
+    "definition": "The mango tree and its fruit.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "DALAGA",
+    "translation": "young woman",
+    "definition": "A young unmarried woman; a maiden.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "HANGIN",
+    "translation": "wind, air",
+    "definition": "Wind, breeze, or air.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "BAYBAY",
+    "translation": "beach",
+    "definition": "The beach, shore, or coast.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "ASUKAR",
+    "translation": "sugar",
+    "definition": "Refined sugar, used to sweeten food and drink.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "MEDYAS",
+    "translation": "socks",
+    "definition": "Socks or stockings.",
+    "letters": 6,
+    "language": "Cebuano"
+  },
+  {
+    "word": "SAPATOS",
+    "translation": "shoes",
+    "definition": "Shoes or footwear.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "TINAPAY",
+    "translation": "bread",
+    "definition": "Bread; also baked pastry.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "LUNGSOD",
+    "translation": "town",
+    "definition": "A town, city, or community.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "PAMILYA",
+    "translation": "family",
+    "definition": "A family; closely related people who live together.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "PANAHON",
+    "translation": "time, weather",
+    "definition": "Time, season, or period; also the weather.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "KANDING",
+    "translation": "goat",
+    "definition": "A goat.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "MAESTRA",
+    "translation": "female teacher",
+    "definition": "A woman teacher.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "MAESTRO",
+    "translation": "male teacher",
+    "definition": "A man teacher.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "LARAWAN",
+    "translation": "picture",
+    "definition": "A picture, image, or portrait.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "MANANAP",
+    "translation": "animal",
+    "definition": "An animal, beast, or insect.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "TRABAHO",
+    "translation": "work",
+    "definition": "Work, a job, or labor.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "TINIDOR",
+    "translation": "fork",
+    "definition": "A fork, used for eating.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "SIBUYAS",
+    "translation": "onion",
+    "definition": "The onion.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "KAMATIS",
+    "translation": "tomato",
+    "definition": "The tomato plant and its fruit.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "PATATAS",
+    "translation": "potato",
+    "definition": "The potato.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "KUTSARA",
+    "translation": "spoon",
+    "definition": "A spoon or tablespoon.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "BINTANA",
+    "translation": "window",
+    "definition": "A window in a house or building.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "MERKADO",
+    "translation": "market",
+    "definition": "A market or marketplace.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "LINGKOD",
+    "translation": "sit",
+    "definition": "To sit down; to be seated.",
+    "letters": 7,
+    "language": "Cebuano"
+  },
+  {
+    "word": "HIGDAAN",
+    "translation": "bed",
+    "definition": "A bed or couch for sleeping.",
+    "letters": 7,
+    "language": "Cebuano"
+  }
+]

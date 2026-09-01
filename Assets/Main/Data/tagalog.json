@@ -1,0 +1,702 @@
+[
+  {
+    "word": "AKO",
+    "translation": "I, me",
+    "definition": "First person singular pronoun; I or me.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "AMA",
+    "translation": "father",
+    "definition": "A father; also a founder or senior.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "INA",
+    "translation": "mother",
+    "definition": "A mother.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ANO",
+    "translation": "what",
+    "definition": "Question word meaning what; also used to show surprise.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ASO",
+    "translation": "dog",
+    "definition": "A dog; the same spelling also means smoke.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "APO",
+    "translation": "grandchild",
+    "definition": "A grandchild; also a respectful term for an elderly person.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ATE",
+    "translation": "elder sister",
+    "definition": "Title used for an elder sister or an older female.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ULO",
+    "translation": "head",
+    "definition": "The head; also a chief, a top, or a heading.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "PAA",
+    "translation": "foot, leg",
+    "definition": "The foot, leg, hoof, or paw.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "NOO",
+    "translation": "forehead",
+    "definition": "The forehead.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ISA",
+    "translation": "one",
+    "definition": "The number one.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ITO",
+    "translation": "this",
+    "definition": "This; something close to the speaker.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "IYO",
+    "translation": "your, yours",
+    "definition": "Second person possessive pronoun; your or yours.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "TAO",
+    "translation": "person",
+    "definition": "A man, person, or human being.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ABO",
+    "translation": "ash",
+    "definition": "Ash or ashes.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "UBO",
+    "translation": "cough",
+    "definition": "A cough.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ORO",
+    "translation": "gold",
+    "definition": "Gold, the metal.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "USA",
+    "translation": "deer",
+    "definition": "A deer.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "UNA",
+    "translation": "first",
+    "definition": "First, foremost, or earliest; at the beginning.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "OPO",
+    "translation": "yes sir",
+    "definition": "A respectful yes, contracted from oo po.",
+    "letters": 3,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ARAW",
+    "translation": "sun, day",
+    "definition": "The sun; also a day or the daytime.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ASIN",
+    "translation": "salt",
+    "definition": "Salt.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "APAT",
+    "translation": "four",
+    "definition": "The number four.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ANIM",
+    "translation": "six",
+    "definition": "The number six.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "PITO",
+    "translation": "seven",
+    "definition": "The number seven.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "WALO",
+    "translation": "eight",
+    "definition": "The number eight.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "BATA",
+    "translation": "child",
+    "definition": "A baby or child; also used to mean young.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "DAGA",
+    "translation": "rat",
+    "definition": "A rat or mouse.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "DILA",
+    "translation": "tongue",
+    "definition": "The tongue.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "DUGO",
+    "translation": "blood",
+    "definition": "Blood.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "INIT",
+    "translation": "heat",
+    "definition": "Heat or warmth.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ISDA",
+    "translation": "fish",
+    "definition": "Fish.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ITIM",
+    "translation": "black",
+    "definition": "Black or dark; the color black.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ILAW",
+    "translation": "light",
+    "definition": "Light, a lamp, or illumination.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ULAN",
+    "translation": "rain",
+    "definition": "Rain or rainfall.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "IBON",
+    "translation": "bird",
+    "definition": "A bird.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "PERA",
+    "translation": "money",
+    "definition": "Money or cash.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "PUSA",
+    "translation": "cat",
+    "definition": "A cat.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "LOLA",
+    "translation": "grandmother",
+    "definition": "A grandmother.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "LOLO",
+    "translation": "grandfather",
+    "definition": "A grandfather.",
+    "letters": 4,
+    "language": "Tagalog"
+  },
+  {
+    "word": "BAHAY",
+    "translation": "house",
+    "definition": "A house, dwelling, or home.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "TUBIG",
+    "translation": "water",
+    "definition": "Water.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "DAGAT",
+    "translation": "sea",
+    "definition": "The sea, ocean, bay, or gulf.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "GUTOM",
+    "translation": "hunger",
+    "definition": "Hunger, the need for food; also hungry.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "KAMAY",
+    "translation": "hand",
+    "definition": "The hand.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MANOK",
+    "translation": "chicken",
+    "definition": "A chicken or fowl.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "TUHOD",
+    "translation": "knee",
+    "definition": "The knee.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ILONG",
+    "translation": "nose",
+    "definition": "The nose.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ITLOG",
+    "translation": "egg",
+    "definition": "An egg.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "BUHOK",
+    "translation": "hair",
+    "definition": "Hair.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "TIYAN",
+    "translation": "belly",
+    "definition": "The abdomen or belly.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "DAMIT",
+    "translation": "clothes",
+    "definition": "A garment, dress, or clothing.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "LAPIS",
+    "translation": "pencil",
+    "definition": "A pencil.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "LIBRO",
+    "translation": "book",
+    "definition": "A book.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "PAPEL",
+    "translation": "paper",
+    "definition": "Paper; also a role or part in a play.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "GULAY",
+    "translation": "vegetable",
+    "definition": "A vegetable.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "GATAS",
+    "translation": "milk",
+    "definition": "Milk.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "NANAY",
+    "translation": "mother",
+    "definition": "Mother or mom.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "TATAY",
+    "translation": "father",
+    "definition": "Dad, daddy, or papa.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "UMAGA",
+    "translation": "morning",
+    "definition": "The morning.",
+    "letters": 5,
+    "language": "Tagalog"
+  },
+  {
+    "word": "BUNDOK",
+    "translation": "mountain",
+    "definition": "A mountain, mount, or high hill.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "LANGIT",
+    "translation": "sky, heaven",
+    "definition": "The sky or firmament; also heaven.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "KABAYO",
+    "translation": "horse",
+    "definition": "A horse.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "SAGING",
+    "translation": "banana",
+    "definition": "The banana.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MANGGA",
+    "translation": "mango",
+    "definition": "The mango tree and its fruit.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "BAWANG",
+    "translation": "garlic",
+    "definition": "Garlic.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "KUSINA",
+    "translation": "kitchen",
+    "definition": "The kitchen.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "LAMESA",
+    "translation": "table",
+    "definition": "A table.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "DOKTOR",
+    "translation": "doctor",
+    "definition": "A physician; also a person holding a doctoral degree.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "PINSAN",
+    "translation": "cousin",
+    "definition": "A cousin.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "NGAYON",
+    "translation": "now",
+    "definition": "Now, at this time; also today.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MINUTO",
+    "translation": "minute",
+    "definition": "A minute of time.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MAINIT",
+    "translation": "hot",
+    "definition": "Hot, warm, or sultry.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MALAKI",
+    "translation": "big",
+    "definition": "Large, big, ample, or considerable.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MALIIT",
+    "translation": "small",
+    "definition": "Small, tiny, or slight.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MAHABA",
+    "translation": "long",
+    "definition": "Long.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MABAIT",
+    "translation": "kind",
+    "definition": "Kind, kind-hearted, or good-natured.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MASAYA",
+    "translation": "happy",
+    "definition": "Cheerful, happy, or in good spirits.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "PANGIT",
+    "translation": "ugly",
+    "definition": "Ugly or unpleasant to look at.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "GISING",
+    "translation": "awake",
+    "definition": "Awake or alert; the act of waking from sleep.",
+    "letters": 6,
+    "language": "Tagalog"
+  },
+  {
+    "word": "PAMILYA",
+    "translation": "family",
+    "definition": "A family, part of a family, or a line of descent.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "PANAHON",
+    "translation": "time, weather",
+    "definition": "Time, age, season, or period; also the weather.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "KAHAPON",
+    "translation": "yesterday",
+    "definition": "Yesterday; also the past.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "KAPATID",
+    "translation": "sibling",
+    "definition": "A brother or sister.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MAESTRA",
+    "translation": "female teacher",
+    "definition": "A female teacher.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "BINTANA",
+    "translation": "window",
+    "definition": "A window.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "PINTUAN",
+    "translation": "doorway",
+    "definition": "A doorway or door.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "SIBUYAS",
+    "translation": "onion",
+    "definition": "The onion.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "KAMATIS",
+    "translation": "tomato",
+    "definition": "The tomato plant and its fruit.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "PATATAS",
+    "translation": "potato",
+    "definition": "The potato.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "TINAPAY",
+    "translation": "bread",
+    "definition": "Bread.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MALAMIG",
+    "translation": "cold",
+    "definition": "Cold, chilly, or cool.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MABILIS",
+    "translation": "fast",
+    "definition": "Quick, fast, brisk, or speedy.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MABAGAL",
+    "translation": "slow",
+    "definition": "Slow or sluggish.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MABIGAT",
+    "translation": "heavy",
+    "definition": "Heavy or weighty.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "MAGANDA",
+    "translation": "beautiful",
+    "definition": "Beautiful, pretty, or lovely.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "KALABAW",
+    "translation": "carabao",
+    "definition": "The carabao or water buffalo.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "TRABAHO",
+    "translation": "work",
+    "definition": "Work, a job, or a trade.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "KATAWAN",
+    "translation": "body",
+    "definition": "The body or figure.",
+    "letters": 7,
+    "language": "Tagalog"
+  },
+  {
+    "word": "ALMUSAL",
+    "translation": "breakfast",
+    "definition": "Breakfast.",
+    "letters": 7,
+    "language": "Tagalog"
+  }
+]

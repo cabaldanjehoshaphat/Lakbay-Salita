@@ -1,0 +1,702 @@
+[
+  {
+    "word": "AGA",
+    "translation": "morning",
+    "definition": "Morning, from near sunrise until midday.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "AKO",
+    "translation": "I, me",
+    "definition": "First person singular pronoun; I or me.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ANI",
+    "translation": "rice harvest",
+    "definition": "The rice harvest; to harvest rice with a small hand cutter.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "APO",
+    "translation": "grandchild",
+    "definition": "A grandchild; the word is also used for a grandfather.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ASO",
+    "translation": "smoke",
+    "definition": "Smoke or fumes; to give off smoke.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "BAO",
+    "translation": "turtle",
+    "definition": "A small tortoise or turtle.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "HOO",
+    "translation": "yes",
+    "definition": "Yes; to say yes, to consent or agree.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "IDO",
+    "translation": "dog",
+    "definition": "A dog.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ILO",
+    "translation": "orphan",
+    "definition": "An orphan; to be or become orphaned.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "IMO",
+    "translation": "your, yours",
+    "definition": "Second person singular possessive pronoun; your or yours.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "INI",
+    "translation": "this",
+    "definition": "This, or it; something near the speaker.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "OBO",
+    "translation": "cough",
+    "definition": "A cough; to cough or have a cold.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ULO",
+    "translation": "head",
+    "definition": "The head.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ORO",
+    "translation": "gold",
+    "definition": "Gold, from the Spanish oro.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "PAA",
+    "translation": "thigh, leg",
+    "definition": "The leg from the knee upward; the thigh.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "TAO",
+    "translation": "person",
+    "definition": "A man, person, or human being.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "TAY",
+    "translation": "dad",
+    "definition": "Dad, daddy, or father; a short form of tatay.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "UGA",
+    "translation": "dry",
+    "definition": "Dry or dried; also used for sun-dried fish.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "UMA",
+    "translation": "farm",
+    "definition": "Cultivated ground, a field, farm, or the countryside.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "UBI",
+    "translation": "yam",
+    "definition": "The ubi yam, an edible tuber with many varieties.",
+    "letters": 3,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ASIN",
+    "translation": "salt",
+    "definition": "Salt; to salt or season food.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "DILA",
+    "translation": "tongue",
+    "definition": "The tongue; to lick with the tongue.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "DUGO",
+    "translation": "blood",
+    "definition": "Blood; to bleed or stain with blood.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "DUHA",
+    "translation": "two",
+    "definition": "The number two; a pair or couple.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ISDA",
+    "translation": "fish",
+    "definition": "Fish.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ITUM",
+    "translation": "black",
+    "definition": "Black or dark; to become black.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "KAON",
+    "translation": "eat",
+    "definition": "To eat, take food, or feed.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "TIIL",
+    "translation": "foot",
+    "definition": "The foot, paw, or leg.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "APAT",
+    "translation": "four",
+    "definition": "The number four.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ANUM",
+    "translation": "six",
+    "definition": "The number six.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "PITO",
+    "translation": "seven",
+    "definition": "The number seven.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "WALO",
+    "translation": "eight",
+    "definition": "The number eight.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "DAKU",
+    "translation": "big",
+    "definition": "Large, great, big, or important.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "PUTI",
+    "translation": "white",
+    "definition": "White, light, or fair; to whiten or bleach.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "MATA",
+    "translation": "eye",
+    "definition": "The eye or sight; in some areas it also means a blood relation.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "BATA",
+    "translation": "child",
+    "definition": "A child, baby, boy, or girl; the same spelling also means uncle.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ILOY",
+    "translation": "mother",
+    "definition": "A mother; to be or become a mother.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "AMAY",
+    "translation": "father",
+    "definition": "A father; to call someone father.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ULAN",
+    "translation": "rain",
+    "definition": "Rain, a shower, or a downpour; to rain.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "BUAS",
+    "translation": "tomorrow",
+    "definition": "Tomorrow; the day after today.",
+    "letters": 4,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "TUBIG",
+    "translation": "water",
+    "definition": "Water or watery liquid.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "BALAY",
+    "translation": "house",
+    "definition": "A house or building; also to begin building a house.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "BUKID",
+    "translation": "mountain",
+    "definition": "A mountain.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "BULAK",
+    "translation": "flower",
+    "definition": "A flower or blossom; the same word also means the cotton plant.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "DALAN",
+    "translation": "road",
+    "definition": "A road, street, way, path, or route.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "GABII",
+    "translation": "night",
+    "definition": "Night.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ADLAW",
+    "translation": "sun, day",
+    "definition": "The sun; a day or daylight.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "DAGAT",
+    "translation": "sea",
+    "definition": "The sea, ocean, or salt water.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "KAHOY",
+    "translation": "tree",
+    "definition": "A tree; also wood.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "MAAYO",
+    "translation": "good",
+    "definition": "Good, honest, kind, excellent, or well.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "SABAW",
+    "translation": "broth",
+    "definition": "Broth or sauce served with solid food.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "BUGAS",
+    "translation": "hulled rice",
+    "definition": "Hulled rice, ready for cooking.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "TUHUD",
+    "translation": "knee",
+    "definition": "The knee.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ILONG",
+    "translation": "nose",
+    "definition": "The nose.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ITLOG",
+    "translation": "egg",
+    "definition": "An egg; to lay eggs.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "BOHOK",
+    "translation": "hair",
+    "definition": "Hair or tresses.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "TIYAN",
+    "translation": "belly",
+    "definition": "The stomach, belly, or abdomen.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "LAWAS",
+    "translation": "body",
+    "definition": "The body; the main part or substance of something.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "GUTUM",
+    "translation": "hungry",
+    "definition": "Hungry or famished; hunger or famine.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "KAMOT",
+    "translation": "hand",
+    "definition": "The hand.",
+    "letters": 5,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "BABAYE",
+    "translation": "woman",
+    "definition": "A woman or female.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "LANGIT",
+    "translation": "sky, heaven",
+    "definition": "The sky; also heaven.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "KABAYO",
+    "translation": "horse",
+    "definition": "A horse; also to ride on horseback.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "KALAYO",
+    "translation": "fire",
+    "definition": "Fire or flame; the same spelling also means distance or farness.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "KAMOTI",
+    "translation": "sweet potato",
+    "definition": "The sweet potato.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "KOSINA",
+    "translation": "kitchen",
+    "definition": "The kitchen; to build or provide a kitchen.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "LAMESA",
+    "translation": "table",
+    "definition": "A table.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "SAGING",
+    "translation": "banana",
+    "definition": "The banana.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "DALAGA",
+    "translation": "young woman",
+    "definition": "A maiden, girl, or unmarried young lady.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "BITOON",
+    "translation": "star",
+    "definition": "A star or planet.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "HANGIN",
+    "translation": "wind, air",
+    "definition": "Wind, air, breeze, or draught.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "BAYBAY",
+    "translation": "shore",
+    "definition": "The seashore, beach, strand, or coast.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "NGIPON",
+    "translation": "tooth",
+    "definition": "A tooth.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "PISPIS",
+    "translation": "bird",
+    "definition": "A bird.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "BUTKON",
+    "translation": "arm",
+    "definition": "The arm.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "TINGUG",
+    "translation": "voice",
+    "definition": "The voice, speech, or sound; to speak or give expression to.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "HAMBAL",
+    "translation": "speech",
+    "definition": "Speech, talk, or language; to say or speak.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "MALAYO",
+    "translation": "far",
+    "definition": "Far away, remote, or distant.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "TAMBAL",
+    "translation": "medicine",
+    "definition": "A plaster, poultice, ointment, or remedy for a wound or ache.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "NAPULO",
+    "translation": "ten",
+    "definition": "The number ten.",
+    "letters": 6,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "SAPATOS",
+    "translation": "shoes",
+    "definition": "Shoes, boots, or footwear.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "TINAPAY",
+    "translation": "bread",
+    "definition": "Bread.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "PANAHON",
+    "translation": "season, time",
+    "definition": "A season, time, period, or epoch; also the climate.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "KANDING",
+    "translation": "goat",
+    "definition": "A goat.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "MAESTRA",
+    "translation": "female teacher",
+    "definition": "A woman teacher.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "MAESTRO",
+    "translation": "male teacher",
+    "definition": "A man teacher; also a master or boss.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "HIGUGMA",
+    "translation": "love",
+    "definition": "To love, cherish, or have affection for someone.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "KARABAW",
+    "translation": "carabao",
+    "definition": "The carabao or water buffalo.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "SINELAS",
+    "translation": "slippers",
+    "definition": "Slippers.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "KUTSARA",
+    "translation": "spoon",
+    "definition": "A spoon; also a shovel.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "DALAGAN",
+    "translation": "run",
+    "definition": "To run, rush, dash, or scamper.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "MAHINAY",
+    "translation": "slow",
+    "definition": "Slow, unhurried, gentle, or soft.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "MALAPIT",
+    "translation": "near",
+    "definition": "Near, close by, adjacent, or in the neighborhood of.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "MERKADO",
+    "translation": "market",
+    "definition": "A market, mart, or marketplace.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "KAMATIS",
+    "translation": "tomato",
+    "definition": "The tomato.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "PATATAS",
+    "translation": "potato",
+    "definition": "The potato.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "PAGKAON",
+    "translation": "food",
+    "definition": "Food, provisions, or things to eat.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "ILIMNON",
+    "translation": "drink",
+    "definition": "A beverage or drink.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "KALAMAY",
+    "translation": "sugar",
+    "definition": "Sugar.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  },
+  {
+    "word": "PINGGAN",
+    "translation": "plate",
+    "definition": "A plate, dish, or tableware.",
+    "letters": 7,
+    "language": "Hiligaynon"
+  }
+]
