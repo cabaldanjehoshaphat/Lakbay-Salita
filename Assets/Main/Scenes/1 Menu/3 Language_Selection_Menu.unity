@@ -495,7 +495,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13.7, y: -0.5}
+  m_AnchoredPosition: {x: 13.699997, y: -0.5}
   m_SizeDelta: {x: -28, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &530281987
@@ -573,7 +573,7 @@ RectTransform:
   m_Children:
   - {fileID: 1598560688}
   m_Father: {fileID: 1146851152}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -624,13 +624,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 963194229}
-        m_TargetAssemblyTypeName: to_main_menu, Assembly-CSharp
-        m_MethodName: LoadByName
-        m_Mode: 5
+      - m_Target: {fileID: 985482126}
+        m_TargetAssemblyTypeName: SceneNavigator, Assembly-CSharp
+        m_MethodName: LoadMainMenu
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -708,7 +708,7 @@ RectTransform:
   m_Children:
   - {fileID: 1096678335}
   m_Father: {fileID: 1146851152}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -898,7 +898,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 617710457}
-  - component: {fileID: 617710458}
   m_Layer: 5
   m_Name: Radio button - Cebuano
   m_TagString: Untagged
@@ -928,19 +927,6 @@ RectTransform:
   m_AnchoredPosition: {x: 342, y: 211}
   m_SizeDelta: {x: 165.4825, y: 44.499}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &617710458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617710456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AllowSwitchOff: 1
 --- !u!1 &776534590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,7 +1037,7 @@ RectTransform:
   m_Children:
   - {fileID: 471139336}
   m_Father: {fileID: 1146851152}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1314,11 +1300,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 616730550}
   toggleTransition: 1
   graphic: {fileID: 1051345887}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1146851153}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &939810814
 GameObject:
   m_ObjectHideFlags: 0
@@ -1375,7 +1361,6 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1449,18 +1434,100 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &963194229
+--- !u!1 &985482125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 985482128}
+  - component: {fileID: 985482127}
+  - component: {fileID: 985482126}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &985482126
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
+  m_GameObject: {fileID: 985482125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66d29a10c05e0334d82f690f56c74b40, type: 3}
+  m_Script: {fileID: 11500000, guid: 45573b152157da84fac87505c47b4fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  languageSelector: {fileID: 985482127}
+  cebuanoWordleScenes:
+  - puzzle-wordle-generator 1 Cebuano
+  - puzzle-wordle-generator 2 Cebuano
+  - puzzle-wordle-generator 3 Cebuano
+  - puzzle-wordle-generator 4 Cebuano
+  - puzzle-wordle-generator 5 Cebuano
+  - puzzle-wordle-generator 6 Cebuano
+  - puzzle-wordle-generator 7 Cebuano
+  - puzzle-wordle-generator 8 Cebuano
+  - puzzle-wordle-generator 9 Cebuano
+  - puzzle-wordle-generator 10 Cebuano
+  ilonggoWordleScenes:
+  - puzzle-wordle-generator 1 Ilonggo
+  - puzzle-wordle-generator 2 Ilonggo
+  - puzzle-wordle-generator 3 Ilonggo
+  - puzzle-wordle-generator 4 Ilonggo
+  - puzzle-wordle-generator 5 Ilonggo
+  - puzzle-wordle-generator 6 Ilonggo
+  - puzzle-wordle-generator 7 Ilonggo
+  - puzzle-wordle-generator 8 Ilonggo
+  - puzzle-wordle-generator 9 Ilonggo
+  - puzzle-wordle-generator 10 Ilonggo
+  tagalogWordleScenes:
+  - puzzle-wordle-generator 1 Tagalog
+  - puzzle-wordle-generator 2 Tagalog
+  - puzzle-wordle-generator 3 Tagalog
+  - puzzle-wordle-generator 4 Tagalog
+  - puzzle-wordle-generator 5 Tagalog
+  - puzzle-wordle-generator 6 Tagalog
+  - puzzle-wordle-generator 7 Tagalog
+  - puzzle-wordle-generator 8 Tagalog
+  - puzzle-wordle-generator 9 Tagalog
+  - puzzle-wordle-generator 10 Tagalog
+--- !u!114 &985482127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985482125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ee6875b776ceb46874268ef10ed57a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cebuanoToggle: {fileID: 1614731778}
+  ilonggoToggle: {fileID: 1792962120}
+  tagalogToggle: {fileID: 899690130}
+--- !u!4 &985482128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985482125}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1043556945
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,7 +1606,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1043556948}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 985482126}
+        m_TargetAssemblyTypeName: SceneNavigator, Assembly-CSharp
+        m_MethodName: LoadRandomWordlePuzzle
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1043556948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1592,7 +1671,7 @@ RectTransform:
   m_Children:
   - {fileID: 227378219}
   m_Father: {fileID: 1146851152}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1634,7 +1713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -0.0569}
+  m_AnchoredPosition: {x: 0, y: -0.0569}
   m_SizeDelta: {x: 21.1138, y: 21.1139}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1051345887
@@ -1819,7 +1898,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1116795010}
-  - component: {fileID: 1116795011}
   m_Layer: 5
   m_Name: Radio button - Tagalog
   m_TagString: Untagged
@@ -1849,19 +1927,6 @@ RectTransform:
   m_AnchoredPosition: {x: 342, y: -189}
   m_SizeDelta: {x: 165.4825, y: 44.499}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1116795011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1116795009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AllowSwitchOff: 1
 --- !u!1 &1146851148
 GameObject:
   m_ObjectHideFlags: 0
@@ -1874,6 +1939,7 @@ GameObject:
   - component: {fileID: 1146851151}
   - component: {fileID: 1146851150}
   - component: {fileID: 1146851149}
+  - component: {fileID: 1146851153}
   m_Layer: 5
   m_Name: Language_menu
   m_TagString: Untagged
@@ -1930,8 +1996,8 @@ Canvas:
   m_GameObject: {fileID: 1146851148}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 963194227}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1956,10 +2022,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1348886521}
+  - {fileID: 549989486}
   - {fileID: 1043556950}
   - {fileID: 789465888}
   - {fileID: 606646813}
-  - {fileID: 549989486}
   - {fileID: 617710457}
   - {fileID: 1571463182}
   - {fileID: 1116795010}
@@ -1971,6 +2037,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1146851153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146851148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowSwitchOff: 0
 --- !u!1 &1191119909
 GameObject:
   m_ObjectHideFlags: 0
@@ -2006,7 +2085,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -0.0569}
+  m_AnchoredPosition: {x: 0, y: -0.0569}
   m_SizeDelta: {x: 21.1138, y: 21.1139}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1191119911
@@ -2082,7 +2161,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13.7, y: -0.5}
+  m_AnchoredPosition: {x: 13.699997, y: -0.5}
   m_SizeDelta: {x: -28, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1220176173
@@ -2239,7 +2318,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -0.0569}
+  m_AnchoredPosition: {x: 0, y: -0.0569}
   m_SizeDelta: {x: 21.1138, y: 21.1139}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1432679671
@@ -2366,7 +2445,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1571463182}
-  - component: {fileID: 1571463183}
   m_Layer: 5
   m_Name: Radio button - Ilonggo
   m_TagString: Untagged
@@ -2396,19 +2474,6 @@ RectTransform:
   m_AnchoredPosition: {x: 342, y: 12}
   m_SizeDelta: {x: 165.4825, y: 44.499}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1571463183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571463181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AllowSwitchOff: 1
 --- !u!1 &1598560687
 GameObject:
   m_ObjectHideFlags: 0
@@ -2626,7 +2691,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1556113476}
   toggleTransition: 1
   graphic: {fileID: 1432679671}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1146851153}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2789,11 +2854,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 797935568}
   toggleTransition: 1
   graphic: {fileID: 1191119911}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1146851153}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1923053640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2829,7 +2894,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13.7, y: -0.5}
+  m_AnchoredPosition: {x: 13.699997, y: -0.5}
   m_SizeDelta: {x: -28, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1923053642

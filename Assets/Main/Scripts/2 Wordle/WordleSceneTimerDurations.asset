@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37b4f1edf7c5774091fb8fcf73648b6, type: 3}
+  m_Name: WordleSceneTimerDurations
+  m_EditorClassIdentifier: 
+  scenes:
+  - sceneName: puzzle-wordle-generator 1 Cebuano
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 2 Cebuano
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 3 Cebuano
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 4 Cebuano
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 5 Cebuano
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 6 Cebuano
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 7 Cebuano
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 8 Cebuano
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 9 Cebuano
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 10 Cebuano
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 1 Ilonggo
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 2 Ilonggo
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 3 Ilonggo
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 4 Ilonggo
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 5 Ilonggo
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 6 Ilonggo
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 7 Ilonggo
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 8 Ilonggo
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 9 Ilonggo
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 10 Ilonggo
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 1 Tagalog
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 2 Tagalog
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 3 Tagalog
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 4 Tagalog
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 5 Tagalog
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 6 Tagalog
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 7 Tagalog
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 8 Tagalog
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 9 Tagalog
+    minutes: 5
+    seconds: 0
+  - sceneName: puzzle-wordle-generator 10 Tagalog
+    minutes: 5
+    seconds: 0

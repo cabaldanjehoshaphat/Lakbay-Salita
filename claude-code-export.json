@@ -1,0 +1,263 @@
+{
+  "exportMeta": {
+    "generatedAt": "2026-09-15T00:00:00Z",
+    "sourceMachine": {
+      "os": "Windows 10 Pro 10.0.19045",
+      "user": "Admin",
+      "configDir": "C:\\Users\\Admin\\.claude",
+      "claudeConfigDirEnvSet": false,
+      "claudeCodeVersion": "2.1.235",
+      "node": "v24.19.0",
+      "git": "2.53.0.windows.1"
+    },
+    "secretsPolicy": "No API keys, tokens, passwords, or connection strings were found in any file read. .credentials.json exists but was never opened. Any field below named machineID/userID is an opaque hash, not a credential, and is not needed to restore functionality (re-auth regenerates it)."
+  },
+
+  "account": {
+    "email": "jcabaldan@netsolar.com.ph",
+    "displayName": "Joshua",
+    "organizationName": "NetSolar",
+    "organizationType": "claude_team",
+    "seatTier": "team_standard",
+    "accountCreatedAt": "2026-08-11T02:22:06.924297Z",
+    "claudeCodeFirstTokenDate": "2026-08-11T03:46:20.768243Z",
+    "note": "Restored automatically by signing in on the new machine. Do not copy accountUuid/organizationUuid/userID/machineID — they are re-derived on re-auth."
+  },
+
+  "git": {
+    "remote": "https://github.com/cabaldanjehoshaphat/Lakbay-Salita.git",
+    "userName": "cabaldanJehoshaphat",
+    "userEmail": "cabaldanjehoshaphat@gmail.com"
+  },
+
+  "registeredProjects": [
+    {
+      "path": "C:/Users/Admin",
+      "note": "Home directory accidentally trust-registered once; no meaningful config; not worth migrating.",
+      "mcpServers": {}
+    },
+    {
+      "path": "E:/Users/Documents/Unity Projects/Game_Language-feature-menu",
+      "canonical": true,
+      "hasTrustDialogAccepted": true,
+      "mcpServers": {
+        "UnityMCP": { "type": "http", "url": "http://127.0.0.1:8080/mcp" }
+      }
+    },
+    {
+      "path": "E:\\Users\\Documents\\Unity Projects\\Game_Language-feature-menu",
+      "note": "Backslash-path duplicate of the canonical entry (Windows path-normalization artifact).",
+      "hasTrustDialogAccepted": true,
+      "mcpServers": {}
+    },
+    {
+      "path": "e:/Users/Documents/Unity Projects/Game_Language-feature-menu",
+      "note": "Lowercase-drive-letter duplicate; trust not accepted.",
+      "hasTrustDialogAccepted": false,
+      "mcpServers": {}
+    }
+  ],
+
+  "discovery": {
+    "globalClaudeMd": { "found": false, "path": "~/.claude/CLAUDE.md" },
+    "projectClaudeMd": { "found": false, "path": "<project root>/CLAUDE.md" },
+    "projectClaudeLocalMd": { "found": false, "path": "<project root>/CLAUDE.local.md" },
+    "projectDotClaudeDir": { "found": false, "path": "<project root>/.claude" },
+    "dotMcpJson": { "found": false, "path": "<project root>/.mcp.json" },
+    "globalRules": { "found": false, "path": "~/.claude/rules/*.md" },
+    "projectRules": { "found": false, "path": "<project>/.claude/rules/*.md" },
+    "globalAgents": { "found": false, "path": "~/.claude/agents/*.md" },
+    "globalCommands": { "found": false, "path": "~/.claude/commands/*.md" },
+    "globalOutputStyles": { "found": false, "path": "~/.claude/output-styles/*.md" },
+    "globalWorkflows": { "found": false, "path": "~/.claude/workflows/*.js" },
+    "globalPlans": { "found": false, "path": "~/.claude/plans" },
+    "globalSettingsLocal": { "found": false, "path": "~/.claude/settings.local.json" },
+    "projectSettings": { "found": false, "path": "<project>/.claude/settings.json" },
+    "projectSettingsLocal": { "found": false, "path": "<project>/.claude/settings.local.json" },
+    "autoMemory": { "found": true, "path": "~/.claude/projects/E--Users-Documents-Unity-Projects-Game-Language-feature-menu/memory/", "fileCount": 2 },
+    "skills": { "found": true, "count": 1, "names": ["unity-mcp-skill"] },
+    "credentialsFile": { "found": true, "path": "~/.claude/.credentials.json", "sizeBytes": 501, "wasRead": false }
+  },
+
+  "memory": {
+    "globalClaudeMd": null,
+    "projectClaudeMd": null,
+    "projectClaudeLocalMd": null,
+    "rules": [],
+    "autoMemory": {
+      "directory": "~/.claude/projects/E--Users-Documents-Unity-Projects-Game-Language-feature-menu/memory/",
+      "files": [
+        {
+          "filename": "MEMORY.md",
+          "content": "- [C# script comments](feedback_csharp_comments.md) — always add a summary comment of purpose/usage to every C# script uploaded or generated\n"
+        },
+        {
+          "filename": "feedback_csharp_comments.md",
+          "frontmatter": {
+            "name": "feedback-csharp-comments",
+            "description": "User wants a summary/comment block on every C# script (uploaded or newly generated) explaining what it is and what it's used for",
+            "metadata": {
+              "node_type": "memory",
+              "type": "feedback",
+              "originSessionId": "45e1435c-265d-4327-a6bf-a9e1cd4644bd",
+              "modified": "2026-08-19T06:11:38.504Z"
+            }
+          },
+          "content": "Every C# script — whether the user uploads an existing one or I generate a new one — should get a summary comment describing what the script is and what it's used for.\n\n**Why:** Explicit standing request from the user (2026-08-19) for this Unity project. This overrides the general default of \"no comments unless non-obvious\" specifically for C# scripts in this project.\n\n**How to apply:**\n- When generating a new C# script (via `create_script`, `manage_script`, or Write/Edit on a `.cs` file), add a brief header comment (e.g. an XML `/// <summary>` or a top-of-file block) stating the script's purpose and role (what it's attached to / what system it belongs to).\n- When the user uploads/shares an existing C# script that lacks such a summary, add one describing what it does, rather than leaving it uncommented.\n- Keep the summary concise — what the class/script is for and how it's used — not a line-by-line narration of the code."
+        }
+      ]
+    }
+  },
+
+  "skills": [
+    {
+      "directoryName": "unity-mcp-skill",
+      "frontmatterName": "unity-mcp-orchestrator",
+      "scope": "global",
+      "path": "~/.claude/skills/unity-mcp-skill/",
+      "syncManaged": true,
+      "syncMarkerFile": ".unity-mcp-skill-sync",
+      "syncMarkerContent": "managed-by-unity-mcp-skill-sync",
+      "note": "Auto-generated by the MCP for Unity server on connection; regenerates automatically, do not hand-migrate. SKILL.md full content is in claude-code-export.md Section C.",
+      "additionalFiles": [
+        { "path": "references/tools-reference.md", "sizeBytes": 60627, "syncManaged": true, "duplicatedInExport": false },
+        { "path": "references/workflows.md", "sizeBytes": 74497, "syncManaged": true, "duplicatedInExport": false }
+      ]
+    }
+  ],
+
+  "agents": [],
+  "commands": [],
+  "outputStyles": [],
+  "workflows": [],
+
+  "settings": {
+    "global": {
+      "path": "~/.claude/settings.json",
+      "content": { "syntaxHighlightingDisabled": false, "theme": "auto" }
+    },
+    "globalLocal": null,
+    "project": null,
+    "projectLocal": null,
+    "orgPolicyLimits": {
+      "path": "~/.claude/policy-limits.json",
+      "note": "Org-pushed, read-only, re-delivered automatically on sign-in to NetSolar org.",
+      "content": {
+        "restrictions": {
+          "allow_remote_control": { "allowed": false },
+          "allow_quick_web_setup": { "allowed": false },
+          "enforce_web_search_mcp_isolation": { "allowed": false }
+        },
+        "compliance_taints": [],
+        "monitoring_notice": null,
+        "defaults": { "remote_control_at_startup": false }
+      }
+    },
+    "remoteSettings": { "path": "~/.claude/remote-settings.json", "content": {} },
+    "redacted": [
+      { "item": "OAuth session token", "location": "~/.claude/.credentials.json", "action": "<REDACTED - re-authenticate on new machine>" },
+      { "item": "machineID", "location": ".claude.json top-level", "action": "not copied - device-specific hash, regenerates" },
+      { "item": "userID", "location": ".claude.json top-level", "action": "not copied - account-derived hash, regenerates" },
+      { "item": "cachedGrowthBookFeatures / cachedExperimentFeatures / cachedExperimentData", "location": ".claude.json top-level", "action": "omitted entirely - server-side feature-flag cache (~700 keys), not configuration, refetched fresh" },
+      { "item": "clientDataCacheSlots", "location": ".claude.json top-level", "action": "omitted entirely - ephemeral per-session billing/entitlement cache" }
+    ]
+  },
+
+  "mcpServers": [
+    {
+      "name": "UnityMCP",
+      "scope": "project",
+      "scopedToProjectPath": "E:/Users/Documents/Unity Projects/Game_Language-feature-menu",
+      "definedIn": ".claude.json (no .mcp.json exists in the repo)",
+      "type": "http",
+      "url": "http://127.0.0.1:8080/mcp",
+      "purpose": "Bridge to the 'MCP for Unity' Unity Editor package for this project - scene/GameObject/component/script/prefab/camera/console automation (~48 tools).",
+      "authType": "none (local-only HTTP endpoint, no OAuth/token)",
+      "reauthSteps": [
+        "Open this Unity project (see git.remote) in Unity Editor on the new machine.",
+        "Ensure the 'MCP for Unity' package is installed in the project (check Packages/manifest.json; reinstall from its original source if missing).",
+        "Start Unity Editor so the bridge listens on 127.0.0.1:8080 (or its configured port).",
+        "Re-register the server in Claude Code for the new project path (old registration is keyed to the old absolute path and will not carry over) - accept the auto-detected local server prompt, or add manually: type=http, url=http://127.0.0.1:8080/mcp.",
+        "The unity-mcp-skill will re-sync automatically once connected - no manual step."
+      ]
+    }
+  ],
+
+  "plugins": {
+    "marketplaces": [
+      {
+        "name": "claude-plugins-official",
+        "source": { "type": "github", "repo": "anthropics/claude-plugins-official" },
+        "autoInstalled": true,
+        "note": "Reinstalls automatically on first run - no manual migration needed."
+      }
+    ],
+    "usage": [
+      { "plugin": "anthropic-skills", "kind": "inline (host-provided)", "usageCount": 1 },
+      { "plugin": "netgroup-analyst-toolkit", "kind": "inline (host-provided)", "usageCount": 0 }
+    ],
+    "skillUsage": [
+      { "skill": "pdf", "usageCount": 1 }
+    ]
+  },
+
+  "sessionIndex": {
+    "projectFolder": "~/.claude/projects/E--Users-Documents-Unity-Projects-Game-Language-feature-menu/",
+    "totalTranscripts": 18,
+    "totalSizeApproxMB": 280,
+    "note": "Files are cumulative forks (each resume/compaction re-embeds prior history), not independent deltas. Two lineages identified by distinct opening content.",
+    "lineages": [
+      {
+        "lineageId": 1,
+        "label": "initial buildout",
+        "opensWith": "Hey! Claude AI, I currently have an open session with my Unity, can you tell what Scene name I'm using?",
+        "dateRangeUtc": ["2026-08-19T04:56:52.918Z", "2026-09-03T18:18:30.665Z"],
+        "sessions": [
+          { "sessionId": "45e1435c-265d-4327-a6bf-a9e1cd4644bd", "sizeMB": 0.2, "startUtc": "2026-08-19T04:56:52.918Z", "endUtc": "2026-08-20T04:11:30.590Z", "summary": "First session. Established C#-comment standing preference. Built 'Claude AI Folder' test scene (Canvas, camera, black background, generic grid generator)." },
+          { "sessionId": "1301b42b-6073-44ca-a63f-74ac5b5ac48e", "sizeMB": 1.15, "startUtc": "2026-08-20T04:59:26.362Z", "endUtc": "2026-08-25T07:57:09.170Z", "summary": "Grid generator refactor to GridSettings ScriptableObject with OnValidate live-regen; prefab-image cell generation." },
+          { "sessionId": "49fc9c6b-d2ca-4b6e-a6b9-ce8e98aeeed4", "sizeMB": 1.17, "startUtc": "2026-08-25T07:57:36.398Z", "endUtc": "2026-08-25T08:39:21.802Z", "summary": "Short same-day continuation." },
+          { "sessionId": "6c3928d5-8231-4e74-a4d9-5cf4ee99759e", "sizeMB": 3.46, "startUtc": "2026-08-25T08:39:30.205Z", "endUtc": "2026-08-25T10:58:59.274Z", "summary": "Continuation - likely ImageContainer char-to-sprite ScriptableObject + custom Editor drawer work." },
+          { "sessionId": "edb7eff6-b400-4340-98d4-2fa683973b04", "sizeMB": 3.68, "startUtc": "2026-08-25T11:30:36.483Z", "endUtc": "2026-08-25T12:26:21.780Z", "summary": "Continuation." },
+          { "sessionId": "15229105-7233-4c52-89ac-e50e6866bd4c", "sizeMB": 4.05, "startUtc": "2026-08-25T12:26:51.136Z", "endUtc": "2026-08-25T14:17:15.465Z", "summary": "Continuation." },
+          { "sessionId": "abfdb2af-da2e-4395-bec9-afb076b86722", "sizeMB": 4.17, "startUtc": "2026-08-25T14:18:25.159Z", "endUtc": "2026-08-26T03:34:16.558Z", "summary": "Continuation - Main Menu / project structure review era." },
+          { "sessionId": "e14d1790-fd73-4159-b2ef-ee6088cc2b1f", "sizeMB": 4.89, "startUtc": "2026-08-26T03:35:06.610Z", "endUtc": "2026-09-01T06:50:25.632Z", "summary": "Profile Icon scene, PlayerData/PlayerDatabase, edit/delete profile buttons, resolution standardized to 1920x1080." },
+          { "sessionId": "cab2d171-b9f3-43a1-89ed-ab0c09983072", "sizeMB": 4.99, "startUtc": "2026-09-01T06:54:59.157Z", "endUtc": "2026-09-01T16:28:13.991Z", "summary": "Early Wordle scaffolding: WordleRowsColumnGenerator, WordleCell prefab." },
+          { "sessionId": "df25c274-4f1c-4622-89a9-7dae853c75e9", "sizeMB": 13.89, "startUtc": "2026-09-01T16:28:37.131Z", "endUtc": "2026-09-03T05:07:05.573Z", "summary": "Duplicated base scene into 30 Wordle puzzle scenes (3 languages), multiple grid-size resizing passes, keyboard typing input." },
+          { "sessionId": "043cbc7d-728e-4c2c-b279-f21afc899e03", "sizeMB": 13.58, "startUtc": "2026-09-03T05:12:19.043Z", "endUtc": "2026-09-03T06:10:20.996Z", "summary": "Word verification wiring across scenes." },
+          { "sessionId": "04d8ffc4-8046-4c22-966a-3e6d308d48fa", "sizeMB": 13.91, "startUtc": "2026-09-03T06:13:25.871Z", "endUtc": "2026-09-03T06:40:32.311Z", "summary": "Continuation." },
+          { "sessionId": "70199212-6549-433c-9287-835f7586e1ff", "sizeMB": 21.79, "startUtc": "2026-09-03T06:41:39.367Z", "endUtc": "2026-09-03T18:18:30.665Z", "summary": "Largest in lineage 1. Finalized keyboard typer/verifier (duplicate-safe two-pass scoring), removed ImageContainer dependency, imported/tested 9-weight Roboto font family." }
+        ]
+      },
+      {
+        "lineageId": 2,
+        "label": "post-compaction continuation",
+        "opensWith": "test every scene of ... Assets/Main/Scenes/2 Wordle/... (preceded by an auto-generated compaction summary of lineage 1)",
+        "dateRangeUtc": ["2026-09-03T18:19:27.706Z", "2026-09-15T14:46:20.869Z"],
+        "sessions": [
+          { "sessionId": "167c5637-7297-464c-b477-15f2cfb38fb7", "sizeMB": 16.4, "startUtc": "2026-09-03T18:19:27.706Z", "endUtc": "2026-09-04T07:21:34.491Z", "summary": "Tested all 30 Wordle scenes + PDF report; fixed TMP font-asset material/atlas corruption bug across 9 Roboto weights; applied ExtraBold project-wide; built SceneNavigator/LanguageSelector menu navigation; rolled back-to-main-menu button to all 30 scenes." },
+          { "sessionId": "dc1ca161-cec6-4d66-8864-4c092f9f8bae", "sizeMB": 15.62, "startUtc": "2026-09-04T07:22:13.119Z", "endUtc": "2026-09-04T18:43:36.933Z", "summary": "Built Dialog Panel word-definition display (WordDefinitionDisplay), shared WordleTextStyle ScriptableObject, WordleDialogPanelLayout percentage padding - rolled out to all 30 scenes." },
+          { "sessionId": "ec05b7b6-9116-44c5-9157-6009b0e327e4", "sizeMB": 15.74, "startUtc": "2026-09-04T18:44:21.338Z", "endUtc": "2026-09-04T18:57:17.884Z", "summary": "Short continuation." },
+          { "sessionId": "1c7a86c2-907a-49e7-978d-b2cd15fd908b", "sizeMB": 32.0, "startUtc": "2026-09-04T18:57:36.597Z", "endUtc": "2026-09-15T04:16:11.972Z", "summary": "Fixed Dialog Panel text overflow (auto-growing VerticalLayoutGroup/ContentSizeFitter); built Timer widget, WordleTimerSettings, WordleSceneTimerDurations ScriptableObjects; rolled out to all 30 scenes." },
+          { "sessionId": "4780f59e-34bb-4385-9487-da8ffde6d917", "sizeMB": 36.5, "startUtc": "2026-09-15T04:17:04.138Z", "endUtc": "2026-09-15T14:46:20.869Z", "summary": "Timer now stops on correct solve; Dialog Panel font size/style/color consolidated onto WordleDialogPanelLayout; this export produced here." }
+        ]
+      }
+    ]
+  },
+
+  "rebuildChecklist": [
+    "Install Claude Code on the new machine.",
+    "Sign in with jcabaldan@netsolar.com.ph (NetSolar org, team_standard seat) - restores account/org/policy-limits automatically.",
+    "git clone https://github.com/cabaldanjehoshaphat/Lakbay-Salita.git; set git user.name=cabaldanJehoshaphat, user.email=cabaldanjehoshaphat@gmail.com.",
+    "Open the project folder in Claude Code and accept the trust-project prompt.",
+    "Recreate ~/.claude/projects/<new-encoded-path>/memory/MEMORY.md and feedback_csharp_comments.md verbatim from the memory.autoMemory section above.",
+    "(Optional) Recreate ~/.claude/settings.json with {\"syntaxHighlightingDisabled\": false, \"theme\": \"auto\"} - also the CLI defaults.",
+    "Open the Unity project in Unity Editor with the MCP for Unity package installed.",
+    "Start Unity Editor so the bridge listens on http://127.0.0.1:8080/mcp.",
+    "Let Claude Code detect/register the UnityMCP server for the new project path (or add manually: type=http, url=http://127.0.0.1:8080/mcp).",
+    "No action needed for unity-mcp-skill - regenerates automatically once connected.",
+    "No action needed for plugins - claude-plugins-official auto-installs.",
+    "Verify by asking Claude Code what Unity scene is open.",
+    "(Optional) Copy the *.jsonl session transcripts + memory/ folder to the new machine's equivalent encoded project folder if you want `claude --resume` history to carry over (only works if the new absolute project path encodes to the same folder name).",
+    "Nothing else to migrate: no global CLAUDE.md, no rules, no custom agents, no slash commands, no output styles, no workflows exist in this setup."
+  ]
+}

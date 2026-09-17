@@ -9,9 +9,132 @@ EditorBuildSettings:
     path: Assets/Main/Scenes/1 Menu/1 Main_menu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Main/Scenes/1 Menu/2 Profile Icon.unity
+    guid: e9bdc6ff352d55548bc50fbcf4b8d3fb
+  - enabled: 1
     path: Assets/Main/Scenes/1 Menu/3 Language_Selection_Menu.unity
     guid: 99d0708b7888dd440b939ef9448ca81f
   - enabled: 1
     path: Assets/Main/Scenes/1 Menu/4 Library_menu.unity
     guid: 96a3ad96affe7074c89c69f058ddc6e6
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/1 - Puzzle - Cebuano/puzzle-wordle-generator
+      1 Cebuano.unity
+    guid: 9ad99727d015d3340a6121069f33ad50
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/1 - Puzzle - Cebuano/puzzle-wordle-generator
+      2 Cebuano.unity
+    guid: 92fdd92c3a4b52b46b3a5cf2b56f51d9
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/1 - Puzzle - Cebuano/puzzle-wordle-generator
+      3 Cebuano.unity
+    guid: 8a94cfc56a8df0142b6de8cfff9192a9
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/1 - Puzzle - Cebuano/puzzle-wordle-generator
+      4 Cebuano.unity
+    guid: fdfa1eb73810c9f44a2140ae85f78580
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/1 - Puzzle - Cebuano/puzzle-wordle-generator
+      5 Cebuano.unity
+    guid: 5d2b16ef40cfcf84688a0bf513bc8a51
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/1 - Puzzle - Cebuano/puzzle-wordle-generator
+      6 Cebuano.unity
+    guid: e717435791dd8724b86f7bc8b8e06ce8
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/1 - Puzzle - Cebuano/puzzle-wordle-generator
+      7 Cebuano.unity
+    guid: 392c29a3422f0604c8ad00844807934c
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/1 - Puzzle - Cebuano/puzzle-wordle-generator
+      8 Cebuano.unity
+    guid: 8ecca060bf2d34841a94798a7f4a5b3c
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/1 - Puzzle - Cebuano/puzzle-wordle-generator
+      9 Cebuano.unity
+    guid: ba7dbae65efc10746b8bdb6a74dc115b
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/1 - Puzzle - Cebuano/puzzle-wordle-generator
+      10 Cebuano.unity
+    guid: e49c29511ef66a24eb899dcdbf6d91f8
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/2 - Puzzle - Ilonggo/puzzle-wordle-generator
+      1 Ilonggo.unity
+    guid: 65938413b896fb44d9b3a1c83e942ca1
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/2 - Puzzle - Ilonggo/puzzle-wordle-generator
+      2 Ilonggo.unity
+    guid: 2ef2e9e76f6e8f641a5f6f2b8022623e
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/2 - Puzzle - Ilonggo/puzzle-wordle-generator
+      3 Ilonggo.unity
+    guid: bf92dff3601bea4489ec9d7f3d2a6496
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/2 - Puzzle - Ilonggo/puzzle-wordle-generator
+      4 Ilonggo.unity
+    guid: 92c92b0923e77b04eb7dca6c7c3125cc
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/2 - Puzzle - Ilonggo/puzzle-wordle-generator
+      5 Ilonggo.unity
+    guid: 2374ae2261d2e42439b93157bfdc6a24
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/2 - Puzzle - Ilonggo/puzzle-wordle-generator
+      6 Ilonggo.unity
+    guid: eec55af97e3da9140bff6dcc600d9f11
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/2 - Puzzle - Ilonggo/puzzle-wordle-generator
+      7 Ilonggo.unity
+    guid: 2465c75faf394eb4aa486ae40cf8cedf
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/2 - Puzzle - Ilonggo/puzzle-wordle-generator
+      8 Ilonggo.unity
+    guid: 508372cc3da644c43bdd15aa322675bd
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/2 - Puzzle - Ilonggo/puzzle-wordle-generator
+      9 Ilonggo.unity
+    guid: b3cdfaf88e8162b4e9dd16c2187c44ba
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/2 - Puzzle - Ilonggo/puzzle-wordle-generator
+      10 Ilonggo.unity
+    guid: 0995a9fbd6a1ab246add81021d5b3b3e
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/3 - Puzzle - Tagalog/puzzle-wordle-generator
+      1 Tagalog.unity
+    guid: b5243a7f784bab948b0507ab62a37234
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/3 - Puzzle - Tagalog/puzzle-wordle-generator
+      2 Tagalog.unity
+    guid: 8d54943ead9f0b94b9c2d8151c8ab7b6
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/3 - Puzzle - Tagalog/puzzle-wordle-generator
+      3 Tagalog.unity
+    guid: 9140a98f0391ffe4c8992e17477d491b
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/3 - Puzzle - Tagalog/puzzle-wordle-generator
+      4 Tagalog.unity
+    guid: 4c032f7c0135a2c409bb7df7f817e496
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/3 - Puzzle - Tagalog/puzzle-wordle-generator
+      5 Tagalog.unity
+    guid: 9acd0f94ad14f3f4bb81d7985e2401c9
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/3 - Puzzle - Tagalog/puzzle-wordle-generator
+      6 Tagalog.unity
+    guid: 5c6dd101e9b3e4f43b1f166d0c55b93a
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/3 - Puzzle - Tagalog/puzzle-wordle-generator
+      7 Tagalog.unity
+    guid: 7d11dbdffc8258f4dbd5dcc2774ac683
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/3 - Puzzle - Tagalog/puzzle-wordle-generator
+      8 Tagalog.unity
+    guid: 17304709b96dead488a1f232beb33880
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/3 - Puzzle - Tagalog/puzzle-wordle-generator
+      9 Tagalog.unity
+    guid: e3389e1baecb4a344908944d2046546e
+  - enabled: 1
+    path: Assets/Main/Scenes/2 Wordle/3 - Puzzle - Tagalog/puzzle-wordle-generator
+      10 Tagalog.unity
+    guid: 2f7c7a40b72af4c4f93032c9d7aed689
   m_configObjects: {}
