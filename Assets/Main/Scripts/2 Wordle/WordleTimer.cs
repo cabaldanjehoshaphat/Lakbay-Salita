@@ -24,6 +24,12 @@ public class WordleTimer : MonoBehaviour
     [SerializeField] private WordleTimerSettings settings;
     [SerializeField] private TMP_Text timerText;
 
+    [Tooltip("Apply the shared settings' font/size to the timer text. The redesigned screens turn this off and style the label themselves.")]
+    [SerializeField] private bool applyTextStyle = true;
+
+    [Tooltip("Apply the shared settings' horizontal position to this object. The redesigned screens turn this off.")]
+    [SerializeField] private bool applyPosition = true;
+
     private enum Phase
     {
         Delay,
@@ -33,10 +39,63 @@ public class WordleTimer : MonoBehaviour
 
     private Phase phase;
     private float remainingSeconds;
+    private float totalSeconds;
+    private bool paused;
+    private bool expiredRaised;
+    private int overrideSeconds;
     private WordleKeyboardTyper typer;
+
+    /// <summary>
+    /// Sets the duration of the real countdown from code (used by the Wordle category play scene, which has one scene for every level),
+    /// instead of looking it up by scene name. Call it before Start (an early Awake is fine).
+    /// </summary>
+    public void OverrideDuration(int seconds)
+    {
+        overrideSeconds = Mathf.Max(0, seconds);
+    }
 
     /// <summary>True once the real countdown (not the delay) has reached zero.</summary>
     public bool HasExpired => phase == Phase.Expired;
+
+    /// <summary>Raised once when the real countdown reaches zero (used by WordleGameController for "time's up").</summary>
+    public event System.Action Expired;
+
+    /// <summary>True while the timer is held by the pause menu.</summary>
+    public bool IsPaused => paused;
+
+    /// <summary>True during the short lead-in delay, before the real countdown starts.</summary>
+    public bool IsLeadIn => phase == Phase.Delay;
+
+    /// <summary>True while the real countdown is running (not lead-in, not expired).</summary>
+    public bool IsCounting => phase == Phase.Counting;
+
+    /// <summary>Seconds left on the display (lead-in seconds during the lead-in).</summary>
+    public float RemainingSeconds => Mathf.Max(0f, remainingSeconds);
+
+    /// <summary>Seconds of the real countdown already used (0 during the lead-in).</summary>
+    public float ElapsedSeconds => phase == Phase.Delay ? 0f : Mathf.Max(0f, totalSeconds - Mathf.Max(0f, remainingSeconds));
+
+    /// <summary>The MM:SS text currently shown.</summary>
+    public string DisplayText => FormatTime(Mathf.CeilToInt(Mathf.Max(0f, remainingSeconds)));
+
+    /// <summary>Freezes the countdown (pause menu).</summary>
+    public void Pause()
+    {
+        paused = true;
+    }
+
+    /// <summary>Continues the countdown after Pause.</summary>
+    public void Resume()
+    {
+        paused = false;
+    }
+
+    /// <summary>Formats whole seconds as MM:SS.</summary>
+    public static string FormatTime(int totalSecondsValue)
+    {
+        totalSecondsValue = Mathf.Max(0, totalSecondsValue);
+        return $"{totalSecondsValue / 60:00}:{totalSecondsValue % 60:00}";
+    }
 
     private void Start()
     {
@@ -47,9 +106,9 @@ public class WordleTimer : MonoBehaviour
 
     private void Update()
     {
-        if (phase == Phase.Expired || (typer != null && typer.Solved))
+        if (phase == Phase.Expired || paused || (typer != null && typer.Finished))
         {
-            // Word guessed correctly — freeze the countdown right where it is.
+            // Word guessed correctly (or tries used up, or paused) — freeze the countdown right where it is.
             return;
         }
 
@@ -60,6 +119,7 @@ public class WordleTimer : MonoBehaviour
             {
                 phase = Phase.Counting;
                 remainingSeconds = MainDurationSeconds();
+                totalSeconds = remainingSeconds;
             }
             else
             {
@@ -69,6 +129,15 @@ public class WordleTimer : MonoBehaviour
         }
 
         UpdateDisplay();
+
+        if (phase == Phase.Expired && !expiredRaised)
+        {
+            expiredRaised = true;
+            if (Expired != null)
+            {
+                Expired();
+            }
+        }
     }
 
 #if UNITY_EDITOR
@@ -107,15 +176,18 @@ public class WordleTimer : MonoBehaviour
     public void ResetTimer()
     {
         float delaySeconds = settings != null ? settings.delaySeconds : 0f;
+        expiredRaised = false;
         if (delaySeconds > 0f)
         {
             phase = Phase.Delay;
             remainingSeconds = delaySeconds;
+            totalSeconds = MainDurationSeconds();
         }
         else
         {
             phase = Phase.Counting;
             remainingSeconds = MainDurationSeconds();
+            totalSeconds = remainingSeconds;
         }
 
         UpdateDisplay();
@@ -123,6 +195,11 @@ public class WordleTimer : MonoBehaviour
 
     private float MainDurationSeconds()
     {
+        if (overrideSeconds > 0)
+        {
+            return overrideSeconds;
+        }
+
         if (sceneDurations != null && sceneDurations.TryGetDuration(gameObject.scene.name, out int minutes, out int seconds))
         {
             return minutes * 60 + seconds;
@@ -139,7 +216,7 @@ public class WordleTimer : MonoBehaviour
             return;
         }
 
-        if (timerText != null)
+        if (timerText != null && applyTextStyle)
         {
             if (settings.font != null)
             {
@@ -151,7 +228,7 @@ public class WordleTimer : MonoBehaviour
         }
 
         var rectTransform = GetComponent<RectTransform>();
-        if (rectTransform != null)
+        if (rectTransform != null && applyPosition)
         {
             Vector2 pos = rectTransform.anchoredPosition;
             pos.x = settings.horizontalPosition;
@@ -166,9 +243,6 @@ public class WordleTimer : MonoBehaviour
             return;
         }
 
-        int totalSeconds = Mathf.CeilToInt(Mathf.Max(0f, remainingSeconds));
-        int displayMinutes = totalSeconds / 60;
-        int displaySeconds = totalSeconds % 60;
-        timerText.text = $"{displayMinutes:00}:{displaySeconds:00}";
+        timerText.text = FormatTime(Mathf.CeilToInt(Mathf.Max(0f, remainingSeconds)));
     }
 }

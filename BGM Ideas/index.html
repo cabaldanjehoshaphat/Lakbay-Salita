@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+  index.html — Listening page for the Lakbay Salita background-music sketches.
+  Purpose: plays the seven looping BGM drafts made by make_bgm.py, one per screen, with the idea
+  behind each track, so they can be compared before anything is added to the Unity project.
+  Usage: open through a local server (the "bgm-ideas" preview) or double-click it in this folder.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lakbay Salita Soundtrack</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+  /* Layout: one column of listening cards, each card = screen name, track idea, player */
+  :root {
+    --bg: #f6efe2; --card: #fffaf1; --ink: #2b2218; --muted: #6f604c; --line: #e3d6bf; --accent: #b4532a;
+    --display: "Fraunces", Georgia, serif; --body: "Atkinson Hyperlegible", system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1b1814; --card: #24201b; --ink: #f1e8d8; --muted: #b3a48c; --line: #3a332a; --accent: #e88a5c; color-scheme: dark; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); line-height: 1.5; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; display: grid; gap: 18px; }
+  h1 { font-family: var(--display); font-size: clamp(2rem, 6vw, 2.8rem); margin: 0; line-height: 1.1; }
+  .lede { margin: 0; color: var(--muted); max-width: 62ch; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; display: grid; gap: 8px; }
+  .where { font-size: .75rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin: 0; }
+  h2 { font-family: var(--display); font-size: 1.5rem; margin: 0; line-height: 1.15; }
+  h2 small { font-family: var(--body); font-weight: 400; font-size: .9rem; color: var(--muted); }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+  .meta li { font-size: .8rem; padding: 2px 9px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  p { margin: 0; }
+  audio { width: 100%; margin-top: 4px; }
+  .note { font-size: .9rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Lakbay Salita soundtrack sketches</h1>
+  <p class="lede">Seven looping background tracks, one per screen. They share Filipino-inspired instruments (kulintang gongs, bandurria plucks, bamboo marimba and bamboo flute), so the game sounds like one world while each screen keeps its own mood. Every loop restarts seamlessly.</p>
+  <div id="list"></div>
+  <p class="note">These are synthesized drafts made in code, not recordings. They're meant to settle mood, tempo and instruments before you commission or license final music. Nothing here is in the Unity project yet.</p>
+</main>
+<script>
+  const TRACKS = [
+    ["Main Menu", "01_main_menu_lakbay", "Lakbay", "Journey", ["96 BPM", "D major", "≈40 s loop"], "Warm and welcoming, with a sense of setting off. Plucked bandurria arpeggios and bass open, then a kulintang melody comes in, joined by bamboo flute in the last phrase."],
+    ["Profile", "02_profile_ako_ni", "Ako Ni", "This is me", ["84 BPM", "F major", "≈46 s loop"], "Gentle and personal. A music-box melody over a soft pad, with a low flute line the second time through. Calm enough for choosing an icon without hurrying."],
+    ["Language Selection", "03_language_selection_tulay", "Tulay", "Bridge", ["104 BPM", "G major", "≈37 s loop"], "Curious and bright. A bamboo marimba keeps a steady pattern while the melody passes through three voices, flute, bandurria and kulintang, one for each language."],
+    ["Library", "04_library_tahimik", "Tahimik", "Quiet", ["70 BPM", "A minor", "≈41 s loop"], "Calm and focused for reading word entries. Slow pad chords, sparse electric piano and a few soft bells. No drums, so it stays in the background."],
+    ["Wordle", "05_wordle_hula", "Hula-Hula", "Guess", ["100 BPM", "C major", "≈38 s loop"], "Light and bouncy for thinking. Staccato plucks, a woodblock ticking like a clock, and a melody that rises like a question and falls like an answer."],
+    ["Crossword", "06_crossword_pahalang_pababa", "Pahalang, Pababa", "Across, Down", ["88 BPM", "E♭ major", "≈44 s loop"], "Thoughtful and a little jazzy for longer puzzles. Electric piano seventh chords, a walking bass and brushed shaker, with a flute melody in the second half."],
+    ["Word Search", "07_word_search_pangita", "Pangita", "Search", ["112 BPM", "E minor", "≈34 s loop"], "The most energetic track, for scanning the grid. Running marimba, a kulintang motif answered by bandurria, and a busy shaker."]
+  ];
+  const list = document.getElementById("list");
+  list.style.display = "grid"; list.style.gap = "18px";
+  TRACKS.forEach(([where, file, title, meaning, meta, idea]) => {
+    const card = document.createElement("section");
+    card.className = "card";
+    card.innerHTML = `<p class="where">${where}</p>
+      <h2>${title} <small>“${meaning}”</small></h2>
+      <ul class="meta">${meta.map(x => `<li>${x}</li>`).join("")}</ul>
+      <p>${idea}</p>
+      <audio controls loop preload="none" src="${file}.wav"></audio>`;
+    list.appendChild(card);
+  });
+  // only one track plays at a time
+  document.addEventListener("play", e => document.querySelectorAll("audio").forEach(a => { if (a !== e.target) a.pause(); }), true);
+</script>
+</body>
+</html>

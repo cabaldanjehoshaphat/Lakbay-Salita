@@ -1,0 +1,202 @@
+[
+  {
+    "level": 1,
+    "language": "Tagalog",
+    "size": 5,
+    "targetWords": 5,
+    "wordCount": 5,
+    "rows": ["IMIS#", "A#A##", "LABYU", "A#O##", "YOYO#"],
+    "across": [
+      { "number": 1, "row": 0, "col": 0, "answer": "IMIS", "clue": "putting things in order", "definition": "Putting things in order." },
+      { "number": 3, "row": 2, "col": 0, "answer": "LABYU", "clue": "weed that grows up where grass is cut", "definition": "Weed that grows up where grass is cut." },
+      { "number": 4, "row": 4, "col": 0, "answer": "YOYO", "clue": "yo-yo", "definition": "Yo-yo; yoyo (toy)" }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 0, "answer": "IALAY", "clue": "offer", "definition": "Offer (something to someone)" },
+      { "number": 2, "row": 0, "col": 2, "answer": "IABOY", "clue": "drive animals", "definition": "Drive animals, etc. to a certain place; send in a hurry." }
+    ]
+  },
+  {
+    "level": 2,
+    "language": "Tagalog",
+    "size": 6,
+    "targetWords": 6,
+    "wordCount": 6,
+    "rows": ["#S#D#U", "LAGIAN", "#R#M#A", "SIPON#", "#W#N##", "BAT###"],
+    "across": [
+      { "number": 4, "row": 1, "col": 0, "answer": "LAGIAN", "clue": "constant", "definition": "Constant (mathematics)" },
+      { "number": 5, "row": 3, "col": 0, "answer": "SIPON", "clue": "cold", "definition": "Cold (having a cold); syphon." },
+      { "number": 6, "row": 5, "col": 0, "answer": "BAT", "clue": "bat", "definition": "Bat (stick to hit the ball in cricket, baseball, etc.); stick used to hit the ball in baseball, cricket, etc." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 1, "answer": "SARIWA", "clue": "fresh", "definition": "Fresh; new; crisp; bracing; recent." },
+      { "number": 2, "row": 0, "col": 3, "answer": "DIMON", "clue": "delivery bed of a sow", "definition": "Delivery bed of a sow; period after delivery when mother stays in bed." },
+      { "number": 3, "row": 0, "col": 5, "answer": "UNA", "clue": "first", "definition": "First, foremost, or earliest; at the beginning." }
+    ]
+  },
+  {
+    "level": 3,
+    "language": "Tagalog",
+    "size": 6,
+    "targetWords": 6,
+    "wordCount": 6,
+    "rows": ["SERMON", "A####E", "N#I##T", "DAPIL#", "I#O###", "GANTI#"],
+    "across": [
+      { "number": 1, "row": 0, "col": 0, "answer": "SERMON", "clue": "sermon", "definition": "Sermon; sermon n. sermon (rel.); scolding; reprimand." },
+      { "number": 4, "row": 3, "col": 0, "answer": "DAPIL", "clue": "flat", "definition": "Flat (commonly ref. to the nose)" },
+      { "number": 5, "row": 5, "col": 0, "answer": "GANTI", "clue": "requital", "definition": "Requital; return; reward; retribution; respons." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 0, "answer": "SANDIG", "clue": "leaning", "definition": "Leaning; reclining; basis; depending on someone." },
+      { "number": 2, "row": 0, "col": 5, "answer": "NET", "clue": "net income", "definition": "Net income; net profit; net; remaining after deduction; any kind of net." },
+      { "number": 3, "row": 2, "col": 2, "answer": "IPON", "clue": "collection", "definition": "Collection; accumulation; what has been gathered/accumulated." }
+    ]
+  },
+  {
+    "level": 4,
+    "language": "Tagalog",
+    "size": 7,
+    "targetWords": 7,
+    "wordCount": 7,
+    "rows": ["#AGA###", "###SUKI", "#A#A#A#", "#LALAB#", "#B#I#I#", "NUGNOG#", "#M#####"],
+    "across": [
+      { "number": 1, "row": 0, "col": 1, "answer": "AGA", "clue": "earliness", "definition": "Earliness." },
+      { "number": 3, "row": 1, "col": 3, "answer": "SUKI", "clue": "old or regular customer or client", "definition": "Old or regular customer or client." },
+      { "number": 6, "row": 3, "col": 1, "answer": "LALAB", "clue": "shroud", "definition": "Shroud; white sheet used to cover a corpse." },
+      { "number": 7, "row": 5, "col": 0, "answer": "NUGNOG", "clue": "adjoining", "definition": "Adjoining; suburban." }
+    ],
+    "down": [
+      { "number": 2, "row": 0, "col": 3, "answer": "ASALIN", "clue": "act", "definition": "Act; behave (oneself)" },
+      { "number": 4, "row": 1, "col": 5, "answer": "KABIG", "clue": "gallop of a horse", "definition": "Gallop of a horse; winnings in gambling ; act of pulling towards oneself; male servant or employee; vassal." },
+      { "number": 5, "row": 2, "col": 1, "answer": "ALBUM", "clue": "album", "definition": "Album." }
+    ]
+  },
+  {
+    "level": 5,
+    "language": "Tagalog",
+    "size": 7,
+    "targetWords": 8,
+    "wordCount": 8,
+    "rows": ["####H#A", "#PUMISA", "#A##W#M", "KAMBAS#", "A###I#B", "R#KUNWA", "A#####O"],
+    "across": [
+      { "number": 3, "row": 1, "col": 1, "answer": "PUMISA", "clue": "press", "definition": "Press; squeeze hard (a boil, etc.)" },
+      { "number": 4, "row": 3, "col": 0, "answer": "KAMBAS", "clue": "canvas cloth", "definition": "Canvas cloth; tent-cloth; canvas of a painter; canvass; inspection; investigation." },
+      { "number": 6, "row": 5, "col": 2, "answer": "KUNWA", "clue": "in pretence", "definition": "In pretence (US: pretense); simulated; sham; false; pretended." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 4, "answer": "HIWAIN", "clue": "cut into slices", "definition": "Cut into slices; make a cut; cut into." },
+      { "number": 2, "row": 0, "col": 6, "answer": "AAM", "clue": "broth made from boiled rice", "definition": "Broth made from boiled rice." },
+      { "number": 3, "row": 1, "col": 1, "answer": "PAA", "clue": "foot, leg", "definition": "The foot, leg, hoof, or paw." },
+      { "number": 4, "row": 3, "col": 0, "answer": "KARA", "clue": "chatter of monkeys", "definition": "Chatter of monkeys; stamping of feet; face or head side of a coin." },
+      { "number": 5, "row": 4, "col": 6, "answer": "BAO", "clue": "widow", "definition": "Widow; widower; empty coconut shell." }
+    ]
+  },
+  {
+    "level": 6,
+    "language": "Tagalog",
+    "size": 8,
+    "targetWords": 8,
+    "wordCount": 8,
+    "rows": ["#K#M###S", "TUPAAN#E", "#L#A#I#R", "#E#N#TAO", "#LAGYO##", "#A#H####", "ITIIM###", "###T####"],
+    "across": [
+      { "number": 4, "row": 1, "col": 0, "answer": "TUPAAN", "clue": "keyboard", "definition": "Keyboard." },
+      { "number": 6, "row": 3, "col": 5, "answer": "TAO", "clue": "person", "definition": "A man, person, or human being." },
+      { "number": 7, "row": 4, "col": 1, "answer": "LAGYO", "clue": "the essence of a thing", "definition": "The essence of a thing; spirit; name." },
+      { "number": 8, "row": 6, "col": 0, "answer": "ITIIM", "clue": "clench the teeth or jaws", "definition": "Clench the teeth or jaws." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 1, "answer": "KULELAT", "clue": "hindmost", "definition": "Hindmost; last; latest; last in turn." },
+      { "number": 2, "row": 0, "col": 3, "answer": "MAANGHIT", "clue": "having a repellent body odour", "definition": "Having a repellent body odour (US: odor)" },
+      { "number": 3, "row": 0, "col": 7, "answer": "SERO", "clue": "nought", "definition": "Nought; naught; zero; cipher." },
+      { "number": 5, "row": 1, "col": 5, "answer": "NITO", "clue": "of this", "definition": "Of this; of these; species of forest vine; species of fern." }
+    ]
+  },
+  {
+    "level": 7,
+    "language": "Tagalog",
+    "size": 8,
+    "targetWords": 9,
+    "wordCount": 9,
+    "rows": ["#BUTI##I", "#I###P#G", "#ANIMADO", "##I##N#S", "RESPETO#", "E#N##U##", "N#I##P##", "T#SALISI"],
+    "across": [
+      { "number": 1, "row": 0, "col": 1, "answer": "BUTI", "clue": "benevolence", "definition": "Benevolence; kindness; good; benefit." },
+      { "number": 4, "row": 2, "col": 1, "answer": "ANIMADO", "clue": "lively", "definition": "Lively; encouraged." },
+      { "number": 6, "row": 4, "col": 0, "answer": "RESPETO", "clue": "respect", "definition": "Respect." },
+      { "number": 7, "row": 7, "col": 2, "answer": "SALISI", "clue": "in opposite directions", "definition": "In opposite directions; alternately." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 1, "answer": "BIA", "clue": "species of goby fish", "definition": "Species of goby fish." },
+      { "number": 2, "row": 0, "col": 7, "answer": "IGOS", "clue": "fig", "definition": "Fig." },
+      { "number": 3, "row": 1, "col": 5, "answer": "PANTUPI", "clue": "machine/apparatus used for folding", "definition": "Machine/apparatus used for folding." },
+      { "number": 5, "row": 2, "col": 2, "answer": "NISNIS", "clue": "threadbare", "definition": "Threadbare; unravelled." },
+      { "number": 6, "row": 4, "col": 0, "answer": "RENT", "clue": "rent", "definition": "Rent; rental." }
+    ]
+  },
+  {
+    "level": 8,
+    "language": "Tagalog",
+    "size": 9,
+    "targetWords": 10,
+    "wordCount": 10,
+    "rows": ["#PILM####", "####AKMA#", "BULAY#A#C", "####A#R#H", "##BAWAY#E", "######O#C", "###NAKNAK", "####L#E##", "###LISTO#"],
+    "across": [
+      { "number": 1, "row": 0, "col": 1, "answer": "PILM", "clue": "film", "definition": "Film; camera film; movie." },
+      { "number": 3, "row": 1, "col": 4, "answer": "AKMA", "clue": "fitted", "definition": "Fitted; proper; suited; ready to do something; threatening gesture." },
+      { "number": 5, "row": 2, "col": 0, "answer": "BULAY", "clue": "strip of palm leaf", "definition": "Strip of palm leaf." },
+      { "number": 7, "row": 4, "col": 2, "answer": "BAWAY", "clue": "fishing rod", "definition": "Fishing rod." },
+      { "number": 8, "row": 6, "col": 3, "answer": "NAKNAK", "clue": "abscess", "definition": "Abscess." },
+      { "number": 10, "row": 8, "col": 3, "answer": "LISTO", "clue": "alert", "definition": "Alert; astute; nimble." }
+    ],
+    "down": [
+      { "number": 2, "row": 0, "col": 4, "answer": "MAYAW", "clue": "harmony", "definition": "Harmony; concordance; order (used negatively)" },
+      { "number": 4, "row": 1, "col": 6, "answer": "MARYONET", "clue": "marionette", "definition": "Marionette (puppet moved by strings)" },
+      { "number": 6, "row": 2, "col": 8, "answer": "CHECK", "clue": "check", "definition": "Check; mark; cheque (US: check); bank check." },
+      { "number": 9, "row": 6, "col": 4, "answer": "ALI", "clue": "madam, ma'am", "definition": "Madam, ma'am; aunt; stepmother; evil or diabolic influence." }
+    ]
+  },
+  {
+    "level": 9,
+    "language": "Tagalog",
+    "size": 9,
+    "targetWords": 10,
+    "wordCount": 10,
+    "rows": ["###D##G#K", "##PALAUPO", "###H##Y#M", "#B#O##O#U", "KAALIPNAN", "#Y###L#S#", "#IPATAGO#", "#####K#D#", "#DOBLE###"],
+    "across": [
+      { "number": 4, "row": 1, "col": 2, "answer": "PALAUPO", "clue": "sedentary", "definition": "Sedentary." },
+      { "number": 6, "row": 4, "col": 0, "answer": "KAALIPNAN", "clue": "yoke", "definition": "Yoke; servility; attitude fit for slaves." },
+      { "number": 9, "row": 6, "col": 1, "answer": "IPATAGO", "clue": "get someone to keep or hide something", "definition": "Get someone to keep or hide something." },
+      { "number": 10, "row": 8, "col": 1, "answer": "DOBLE", "clue": "double", "definition": "Double." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 3, "answer": "DAHOL", "clue": "non-poisonous water snake", "definition": "Non-poisonous water snake." },
+      { "number": 2, "row": 0, "col": 6, "answer": "GUYON", "clue": "cord", "definition": "Cord; rope; rein of cord for carabaos; cord edging for textiles." },
+      { "number": 3, "row": 0, "col": 8, "answer": "KOMUN", "clue": "common", "definition": "Common." },
+      { "number": 5, "row": 3, "col": 1, "answer": "BAYI", "clue": "royal lady", "definition": "Royal lady; princess." },
+      { "number": 7, "row": 4, "col": 5, "answer": "PLAKE", "clue": "plating", "definition": "Plating; plated ware." },
+      { "number": 8, "row": 4, "col": 7, "answer": "ASOD", "clue": "successive blows, either by hammer, or as in boxing", "definition": "Successive blows, either by hammer (blacksmith), or as in boxing." }
+    ]
+  },
+  {
+    "level": 10,
+    "language": "Tagalog",
+    "size": 10,
+    "targetWords": 11,
+    "wordCount": 11,
+    "rows": ["#######M#M", "#IPIS#PALO", "P#U####L#S", "A#L#KABAAK", "G#U#E##N#I", "T#PARANG#T", "U#U#W##O#E", "P#TRES#Y#R", "O#I######O", "KANTONERA#"],
+    "across": [
+      { "number": 3, "row": 1, "col": 1, "answer": "IPIS", "clue": "cockroach", "definition": "Cockroach." },
+      { "number": 5, "row": 1, "col": 6, "answer": "PALO", "clue": "attracted to the opposite sex", "definition": "Attracted to the opposite sex; batting; hitting a ball with a bat; beating (punishment); swipe; beating with a stick or the hand; swipe; hard blow." },
+      { "number": 7, "row": 3, "col": 4, "answer": "KABAAK", "clue": "the other half of something splitted", "definition": "The other half of something splitted; the other one of a pair (shoes, etc.)" },
+      { "number": 8, "row": 5, "col": 2, "answer": "PARANG", "clue": "meadow", "definition": "Meadow; prairie; like (e.g.: like a child)" },
+      { "number": 9, "row": 7, "col": 2, "answer": "TRES", "clue": "three", "definition": "Three." },
+      { "number": 10, "row": 9, "col": 0, "answer": "KANTONERA", "clue": "corner bracket", "definition": "Corner bracket; angle iron." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 7, "answer": "MALANGOY", "clue": "be able to swim over", "definition": "Be able to swim over." },
+      { "number": 2, "row": 0, "col": 9, "answer": "MOSKITERO", "clue": "mosquito net", "definition": "Mosquito net." },
+      { "number": 4, "row": 1, "col": 2, "answer": "PULUPUTIN", "clue": "wind onto a spool or the like", "definition": "Wind onto a spool or the like." },
+      { "number": 6, "row": 2, "col": 0, "answer": "PAGTUPOK", "clue": "a burning to ashes", "definition": "A burning to ashes." },
+      { "number": 7, "row": 3, "col": 4, "answer": "KERWE", "clue": "cricket", "definition": "Cricket." }
+    ]
+  }
+]

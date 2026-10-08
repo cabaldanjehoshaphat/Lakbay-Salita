@@ -5,7 +5,7 @@ using UnityEngine.UI;
 /// <summary>
 /// WordleWordVerifier
 /// Plain data shape for a puzzle's target-word JSON file (e.g.
-/// Assets/Main/Scripts/2 Wordle/1 - Word - Script - Cebuano/Cebuano_AKO.json).
+/// Assets/Main/Data/Wordle/Legacy words/1 - Word - Script - Cebuano/Cebuano_AKO.json).
 /// </summary>
 [System.Serializable]
 public class WordleWordData
@@ -33,6 +33,7 @@ public class WordleWordData
 /// Inspector (on the same "WordleGenerator" GameObject as WordleRowsColumnGenerator),
 /// refreshed automatically via OnValidate whenever verificationWordJson is assigned or
 /// changed — no need to enter Play mode to see them.
+/// The Wordle category play scene gives the word by code instead (SetTarget, with Target From Code on): see WordleCategoryBootstrap.
 /// </summary>
 public class WordleWordVerifier : MonoBehaviour
 {
@@ -52,6 +53,12 @@ public class WordleWordVerifier : MonoBehaviour
     /// <summary>The target word's definition (read-only), for UI display (e.g. Dialog Panel).</summary>
     public string Definition => definition;
 
+    /// <summary>The target word in upper case (empty until the JSON is loaded).</summary>
+    public string TargetWord => targetWord ?? string.Empty;
+
+    /// <summary>The target word's English translation from the JSON (may be empty).</summary>
+    public string Translation { get; private set; } = string.Empty;
+
     [Header("Colors")]
     [Tooltip("Background color for a letter that's correct and in the right position.")]
     public Color correctColor = new Color(0.42f, 0.73f, 0.42f); // green
@@ -59,17 +66,64 @@ public class WordleWordVerifier : MonoBehaviour
     [Tooltip("Background color for a letter that's in the word but in the wrong position.")]
     public Color wrongPositionColor = new Color(0.80f, 0.73f, 0.30f); // yellow
 
-    [Tooltip("Background color for a letter that isn't in the word at all.")]
-    public Color notInWordColor = new Color(0.80f, 0.30f, 0.30f); // red
+    [Tooltip("Background color for a letter that isn't in the word at all (the redesigned screens use a calm gray).")]
+    public Color notInWordColor = new Color(0.80f, 0.30f, 0.30f); // red in the original design
 
-    private enum LetterState
+    [Header("Reveal animation (only used by tiles with a WordleTileView)")]
+    [Tooltip("Seconds between one tile flipping and the next.")]
+    public float revealStaggerSeconds = 0.22f;
+
+    [Tooltip("Seconds one tile takes to flip.")]
+    public float revealFlipSeconds = 0.3f;
+
+    public enum LetterState
     {
         Correct,
         WrongPosition,
         NotInWord
     }
 
+    /// <summary>Result of the last VerifyRow call, one entry per column.</summary>
+    public LetterState[] LastStates { get; private set; }
+
+    /// <summary>How long the flip animation of the last verified row takes, in seconds.</summary>
+    public float RevealDuration
+    {
+        get
+        {
+            int columns = generator != null ? generator.columns : 0;
+            return Mathf.Max(0, columns - 1) * revealStaggerSeconds + revealFlipSeconds;
+        }
+    }
+
+    /// <summary>The colour used for a letter state.</summary>
+    public Color ColorFor(LetterState state)
+    {
+        switch (state)
+        {
+            case LetterState.Correct: return correctColor;
+            case LetterState.WrongPosition: return wrongPositionColor;
+            default: return notInWordColor;
+        }
+    }
+
+    [Tooltip("On for the category play scene: the target word is given by code (SetTarget) instead of a JSON file.")]
+    [SerializeField] private bool targetFromCode;
+
     private string targetWord;
+
+    /// <summary>
+    /// Sets the target word from code (used by the Wordle category play scene, WordleCategoryBootstrap) instead of reading verificationWordJson.
+    /// Call it before the first Start (an early Awake is fine).
+    /// </summary>
+    public void SetTarget(string newWord, string newTranslation, string newDefinition)
+    {
+        targetFromCode = true;
+        targetWord = (newWord ?? string.Empty).ToUpperInvariant();
+        word = newWord;
+        definition = newDefinition;
+        Translation = newTranslation ?? string.Empty;
+    }
 
     private void Awake()
     {
@@ -85,6 +139,12 @@ public class WordleWordVerifier : MonoBehaviour
 
     private void LoadTargetWord()
     {
+        if (targetFromCode)
+        {
+            // the word comes from SetTarget, not from a JSON file
+            return;
+        }
+
         if (verificationWordJson == null)
         {
             Debug.LogWarning("WordleWordVerifier: no verificationWordJson assigned.");
@@ -95,6 +155,7 @@ public class WordleWordVerifier : MonoBehaviour
         targetWord = data.word.ToUpperInvariant();
         word = data.word;
         definition = data.definition;
+        Translation = data.translation ?? string.Empty;
     }
 
     /// <summary>
@@ -170,10 +231,12 @@ public class WordleWordVerifier : MonoBehaviour
             }
         }
 
+        LastStates = state;
+
         bool allCorrect = columns == targetWord.Length;
         for (int i = 0; i < columns; i++)
         {
-            ApplyColor(generator.Cells[startIndex + i], state[i]);
+            ApplyColor(generator.Cells[startIndex + i], state[i], i * revealStaggerSeconds);
             if (state[i] != LetterState.Correct)
             {
                 allCorrect = false;
@@ -183,33 +246,30 @@ public class WordleWordVerifier : MonoBehaviour
         return allCorrect;
     }
 
-    /// <summary>Colors the cell's background Image according to its verification state
-    /// (green/yellow/red). The Image is the cell's parent, since the TMP_Text lives inside
-    /// the cell as a child.</summary>
-    private void ApplyColor(TMP_Text cellText, LetterState state)
+    /// <summary>Colors the cell according to its verification state (green/yellow/gray).
+    /// Tiles with a WordleTileView flip to the colour after the given delay; plain cells (the original
+    /// design) just get their background Image coloured, which is the cell's parent since the TMP_Text
+    /// lives inside the cell as a child.</summary>
+    private void ApplyColor(TMP_Text cellText, LetterState state, float delay)
     {
         if (cellText == null || cellText.transform.parent == null)
         {
             return;
         }
 
-        Image cellImage = cellText.transform.parent.GetComponent<Image>();
-        if (cellImage == null)
+        Color color = ColorFor(state);
+
+        WordleTileView tile = cellText.GetComponentInParent<WordleTileView>();
+        if (tile != null)
         {
+            tile.SetResult(color, delay, revealFlipSeconds);
             return;
         }
 
-        switch (state)
+        Image cellImage = cellText.transform.parent.GetComponent<Image>();
+        if (cellImage != null)
         {
-            case LetterState.Correct:
-                cellImage.color = correctColor;
-                break;
-            case LetterState.WrongPosition:
-                cellImage.color = wrongPositionColor;
-                break;
-            default:
-                cellImage.color = notInWordColor;
-                break;
+            cellImage.color = color;
         }
     }
 }

@@ -1,0 +1,202 @@
+[
+  {
+    "level": 1,
+    "language": "Cebuano",
+    "size": 5,
+    "targetWords": 5,
+    "wordCount": 5,
+    "rows": ["KAAG#", "A#T#R", "GWANU", "##S#M", "####A"],
+    "across": [
+      { "number": 1, "row": 0, "col": 0, "answer": "KAAG", "clue": "move in haste", "definition": "Move in haste." },
+      { "number": 4, "row": 2, "col": 0, "answer": "GWANU", "clue": "guano, excrement of cave-dwelling birds and bats", "definition": "Guano, excrement of cave-dwelling birds and bats used as fertilizer." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 0, "answer": "KAG", "clue": "soul", "definition": "Soul; apparition; ghost; spirit; psyche; specter; spectre; spook." },
+      { "number": 2, "row": 0, "col": 2, "answer": "ATAS", "clue": "be sickly, retarded in growth after being made", "definition": "Be sickly, retarded in growth after being made to do something before reaching the proper age." },
+      { "number": 3, "row": 1, "col": 4, "answer": "RUMA", "clue": "spiny shrub or small tree similar", "definition": "Spiny shrub or small tree similar to ipil-ipil, used for firewood." }
+    ]
+  },
+  {
+    "level": 2,
+    "language": "Cebuano",
+    "size": 6,
+    "targetWords": 6,
+    "wordCount": 6,
+    "rows": ["S#I###", "ISPRI#", "K#R#N#", "ABUNG#", "N#N#I#", "###ATU"],
+    "across": [
+      { "number": 3, "row": 1, "col": 0, "answer": "ISPRI", "clue": "spray", "definition": "Spray." },
+      { "number": 5, "row": 3, "col": 0, "answer": "ABUNG", "clue": "bar, block the way", "definition": "Bar, block the way." },
+      { "number": 6, "row": 5, "col": 3, "answer": "ATU", "clue": "keep up doing something to things as they come up", "definition": "Keep up doing something to things as they come up." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 0, "answer": "SIKAN", "clue": "second in rank, prize, sequence", "definition": "Second in rank, prize, sequence." },
+      { "number": 2, "row": 0, "col": 2, "answer": "IPRUN", "clue": "apron, garment worn to protect one's clothing", "definition": "Apron, garment worn to protect one's clothing; v. wear, make an apron." },
+      { "number": 4, "row": 1, "col": 4, "answer": "INGIT", "clue": "disappoint someone by not giving him what he expected", "definition": "Disappoint someone by not giving him what he expected." }
+    ]
+  },
+  {
+    "level": 3,
+    "language": "Cebuano",
+    "size": 6,
+    "targetWords": 6,
+    "wordCount": 6,
+    "rows": ["K##KAM", "A#D#B#", "M#A#U#", "BAKNAL", "A###B#", "SUKBUT"],
+    "across": [
+      { "number": 2, "row": 0, "col": 3, "answer": "KAM", "clue": "plow by describing a spiral starting", "definition": "Plow by describing a spiral starting at the outer edge of the field." },
+      { "number": 5, "row": 3, "col": 0, "answer": "BAKNAL", "clue": "too big for the thing it was put in", "definition": "Too big for the thing it was put in." },
+      { "number": 6, "row": 5, "col": 0, "answer": "SUKBUT", "clue": "join by letting the edges touch each other", "definition": "Join by letting the edges touch each other." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 0, "answer": "KAMBAS", "clue": "canvass for votes or sales", "definition": "Canvass for votes or sales." },
+      { "number": 3, "row": 0, "col": 4, "answer": "ABUABU", "clue": "kind of fish", "definition": "Kind of fish." },
+      { "number": 4, "row": 1, "col": 2, "answer": "DAK", "clue": "Doc, nickname for a doctor", "definition": "Doc, nickname for a doctor." }
+    ]
+  },
+  {
+    "level": 4,
+    "language": "Cebuano",
+    "size": 7,
+    "targetWords": 7,
+    "wordCount": 7,
+    "rows": ["#P#P###", "#AHUS#T", "#H#H##A", "MIRASOL", "#N#G##A", "PAD###A", "####HUN"],
+    "across": [
+      { "number": 3, "row": 1, "col": 1, "answer": "AHUS", "clue": "garlic", "definition": "Garlic." },
+      { "number": 5, "row": 3, "col": 0, "answer": "MIRASOL", "clue": "sunflower", "definition": "Sunflower." },
+      { "number": 6, "row": 5, "col": 0, "answer": "PAD", "clue": "pad of paper", "definition": "Pad of paper." },
+      { "number": 7, "row": 6, "col": 4, "answer": "HUN", "clue": "for birds, esp", "definition": "For birds, esp. poultry to roost to sleep." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 1, "answer": "PAHINA", "clue": "page, leaf of a book", "definition": "Page, leaf of a book; v. mark, number pages; for a group to work on something without compensation." },
+      { "number": 2, "row": 0, "col": 3, "answer": "PUHAG", "clue": "scatter a large group of something", "definition": "Scatter a large group of something." },
+      { "number": 4, "row": 1, "col": 6, "answer": "TALAAN", "clue": "bill", "definition": "Bill; catalog; list; roll; toll; register; roster; table." }
+    ]
+  },
+  {
+    "level": 5,
+    "language": "Cebuano",
+    "size": 7,
+    "targetWords": 8,
+    "wordCount": 8,
+    "rows": ["P######", "AGIRI##", "G###N##", "BUSWAT#", "O#U#G#B", "T#K#AGU", "ORINS#L"],
+    "across": [
+      { "number": 2, "row": 1, "col": 0, "answer": "AGIRI", "clue": "ouch! exclamation of jubilation", "definition": "Ouch! exclamation of jubilation." },
+      { "number": 4, "row": 3, "col": 0, "answer": "BUSWAT", "clue": "lift something heavy by putting the arms underneath it", "definition": "Lift something heavy by putting the arms underneath it." },
+      { "number": 7, "row": 5, "col": 4, "answer": "AGU", "clue": "exclamation of woe or pain: ouch! Agú! Kalisud sa way inahan", "definition": "Exclamation of woe or pain: ouch! Agú! Kalisud sa way inahan." },
+      { "number": 8, "row": 6, "col": 0, "answer": "ORINS", "clue": "orange", "definition": "Orange." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 0, "answer": "PAGBOTO", "clue": "vote", "definition": "Vote." },
+      { "number": 3, "row": 1, "col": 4, "answer": "INAGAS", "clue": "flow", "definition": "Flow." },
+      { "number": 5, "row": 3, "col": 2, "answer": "SUKI", "clue": "customer", "definition": "Customer; patron; client; regular vendor; regular vendor of choice - a relationship." },
+      { "number": 6, "row": 4, "col": 6, "answer": "BUL", "clue": "mason jar, used as a measure for toddy", "definition": "Mason jar, used as a measure for toddy." }
+    ]
+  },
+  {
+    "level": 6,
+    "language": "Cebuano",
+    "size": 8,
+    "targetWords": 8,
+    "wordCount": 8,
+    "rows": ["AWSUD###", "H#A#ANAD", "I#G#G#M#", "N#P#M#B#", "GRANADA#", "H###L#W#", "UNOD####", "########"],
+    "across": [
+      { "number": 1, "row": 0, "col": 0, "answer": "AWSUD", "clue": "kind of barracuda", "definition": "Kind of barracuda." },
+      { "number": 4, "row": 1, "col": 4, "answer": "ANAD", "clue": "docile", "definition": "Docile; adept; experience." },
+      { "number": 6, "row": 4, "col": 0, "answer": "GRANADA", "clue": "grenade", "definition": "Grenade." },
+      { "number": 7, "row": 6, "col": 0, "answer": "UNOD", "clue": "flesh", "definition": "Flesh; matter; meat; muscle; substance; pulp." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 0, "answer": "AHINGHU", "clue": "tiny shrub grown in flower pots, not native to the", "definition": "Tiny shrub grown in flower pots, not native to the." },
+      { "number": 2, "row": 0, "col": 2, "answer": "SAGPA", "clue": "slap", "definition": "Slap; stike." },
+      { "number": 3, "row": 0, "col": 4, "answer": "DAGMAL", "clue": "maltreat, treat cruelly", "definition": "Maltreat, treat cruelly; injure; torture." },
+      { "number": 5, "row": 1, "col": 6, "answer": "AMBAW", "clue": "a kind of small mouse", "definition": "A kind of small mouse; mouse; rodent." }
+    ]
+  },
+  {
+    "level": 7,
+    "language": "Cebuano",
+    "size": 8,
+    "targetWords": 9,
+    "wordCount": 9,
+    "rows": ["####P###", "##T#A#L#", "#SINGPUN", "U#R#T#S#", "PLATITO#", "A###G##I", "S###IKAT", "#ORAS##I"],
+    "across": [
+      { "number": 4, "row": 2, "col": 1, "answer": "SINGPUN", "clue": "tightly woven, with the threads close together", "definition": "Tightly woven, with the threads close together." },
+      { "number": 6, "row": 4, "col": 0, "answer": "PLATITO", "clue": "saucer", "definition": "Saucer." },
+      { "number": 8, "row": 6, "col": 4, "answer": "IKAT", "clue": "for the threads of cloth to be displaced", "definition": "For the threads of cloth to be displaced when one of the threads is pulled, cause cloth to get such a defect." },
+      { "number": 9, "row": 7, "col": 1, "answer": "ORAS", "clue": "hour", "definition": "Hour; time." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 4, "answer": "PAGTIGIS", "clue": "pour", "definition": "Pour." },
+      { "number": 2, "row": 1, "col": 2, "answer": "TIRA", "clue": "shoot", "definition": "Shoot." },
+      { "number": 3, "row": 1, "col": 6, "answer": "LUSO", "clue": "penis", "definition": "Penis." },
+      { "number": 5, "row": 3, "col": 0, "answer": "UPAS", "clue": "lose flavor from being left uncovered", "definition": "Lose flavor from being left uncovered." },
+      { "number": 7, "row": 5, "col": 7, "answer": "ITI", "clue": "dry up, evaporate to dryness", "definition": "Dry up, evaporate to dryness; dung; feces; guano." }
+    ]
+  },
+  {
+    "level": 8,
+    "language": "Cebuano",
+    "size": 9,
+    "targetWords": 10,
+    "wordCount": 10,
+    "rows": ["##M###S##", "IWA#P#A#D", "##L#AMPAY", "L#I#N#Y#A", "A#NGAYA#M", "M#I#W###I", "DISKASYUN", "A###Y###G", "GITI#####"],
+    "across": [
+      { "number": 3, "row": 1, "col": 0, "answer": "IWA", "clue": "wet nurse", "definition": "Wet nurse; v. act as a wet nurse, be made wet nurse." },
+      { "number": 6, "row": 2, "col": 4, "answer": "AMPAY", "clue": "favorite", "definition": "Favorite." },
+      { "number": 8, "row": 4, "col": 2, "answer": "NGAYA", "clue": "vivacious", "definition": "Vivacious." },
+      { "number": 9, "row": 6, "col": 0, "answer": "DISKASYUN", "clue": "discussion", "definition": "Discussion; v. hold a discussion." },
+      { "number": 10, "row": 8, "col": 0, "answer": "GITI", "clue": "clitoris", "definition": "Clitoris (coarse)" }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 2, "answer": "MALINIS", "clue": "clean", "definition": "Clean; dainty; immaculate; virtuous; natty; sanitary." },
+      { "number": 2, "row": 0, "col": 6, "answer": "SAPYA", "clue": "for the waves to lap gently at", "definition": "For the waves to lap gently at." },
+      { "number": 4, "row": 1, "col": 4, "answer": "PANAWAY", "clue": "criticism", "definition": "Criticism; grumble; nag." },
+      { "number": 5, "row": 1, "col": 8, "answer": "DYAMING", "clue": "informal get-together, usually in the afternoon", "definition": "Informal get-together, usually in the afternoon, with dancing and refreshments; v. have an informal dance party." },
+      { "number": 7, "row": 3, "col": 0, "answer": "LAMDAG", "clue": "bright", "definition": "Bright; glare; glow; illuminate." }
+    ]
+  },
+  {
+    "level": 9,
+    "language": "Cebuano",
+    "size": 9,
+    "targetWords": 10,
+    "wordCount": 10,
+    "rows": ["#####O###", "#I###R###", "EMBUDO###", "#I##U####", "#KAINIT##", "##H#G#U##", "##ANGKON#", "KUT#A####", "####BARS#"],
+    "across": [
+      { "number": 3, "row": 2, "col": 0, "answer": "EMBUDO", "clue": "funnel", "definition": "Funnel." },
+      { "number": 5, "row": 4, "col": 1, "answer": "KAINIT", "clue": "ardor", "definition": "Ardor; heat; zeal; warmth." },
+      { "number": 8, "row": 6, "col": 2, "answer": "ANGKON", "clue": "claim", "definition": "Claim; admit." },
+      { "number": 9, "row": 7, "col": 0, "answer": "KUT", "clue": "nibble", "definition": "Nibble." },
+      { "number": 10, "row": 8, "col": 4, "answer": "BARS", "clue": "yard", "definition": "Yard." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 5, "answer": "ORO", "clue": "gold", "definition": "Gold, the precious yellow metal." },
+      { "number": 2, "row": 1, "col": 1, "answer": "IMIK", "clue": "click", "definition": "Click; shriek." },
+      { "number": 4, "row": 2, "col": 4, "answer": "DUNGGAB", "clue": "stab", "definition": "Stab." },
+      { "number": 6, "row": 4, "col": 2, "answer": "AHAT", "clue": "done before the proper time", "definition": "Done before the proper time; untimely; immature; premature." },
+      { "number": 7, "row": 4, "col": 6, "answer": "TUO", "clue": "right", "definition": "The right side or right hand, as opposed to left." }
+    ]
+  },
+  {
+    "level": 10,
+    "language": "Cebuano",
+    "size": 10,
+    "targetWords": 11,
+    "wordCount": 11,
+    "rows": ["###TIKUG##", "##S#H##U##", "#KATIPON##", "##M##A#G##", "##B##G#U##", "#DANAKIT##", "##R##U####", "#HAGURUS##", "###I#A#I##", "#KAPUT#R##"],
+    "across": [
+      { "number": 1, "row": 0, "col": 3, "answer": "TIKUG", "clue": "selfish, ungiving and unsharing", "definition": "Selfish, ungiving and unsharing; stoop-shouldered." },
+      { "number": 5, "row": 2, "col": 1, "answer": "KATIPON", "clue": "mate", "definition": "Mate." },
+      { "number": 7, "row": 5, "col": 1, "answer": "DANAKIT", "clue": "name given to various species of", "definition": "Name given to various species of." },
+      { "number": 8, "row": 7, "col": 1, "answer": "HAGURUS", "clue": "wooshing", "definition": "Wooshing; low, hissing sound of wind, water, vehicles; v. make a wooshing sound." },
+      { "number": 11, "row": 9, "col": 1, "answer": "KAPUT", "clue": "hold, take hold of something", "definition": "Hold, take hold of something." }
+    ],
+    "down": [
+      { "number": 2, "row": 0, "col": 4, "answer": "IHI", "clue": "urine", "definition": "Urine; expression of surprise: so, is that so! Ihi, náa ka diay dihà; piss; urinate." },
+      { "number": 3, "row": 0, "col": 7, "answer": "GUNGUT", "clue": "pierce into something and remain immobile there", "definition": "Pierce into something and remain immobile there." },
+      { "number": 4, "row": 1, "col": 2, "answer": "SAMBARA", "clue": "a game of hammer, scissors, paper, used esp", "definition": "A game of hammer, scissors, paper, used esp. to decide who is it in games; v. play this game." },
+      { "number": 6, "row": 2, "col": 5, "answer": "PAGKURAT", "clue": "startle", "definition": "Startle." },
+      { "number": 9, "row": 7, "col": 3, "answer": "GIP", "clue": "gift", "definition": "Gift." },
+      { "number": 10, "row": 7, "col": 7, "answer": "SIR", "clue": "term of address for male teachers and other", "definition": "Term of address for male teachers and other men of high status." }
+    ]
+  }
+]

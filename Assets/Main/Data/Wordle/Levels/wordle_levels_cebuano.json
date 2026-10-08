@@ -1,0 +1,252 @@
+{
+ "purpose": "Wordle levels for Lakbay Salita, Cebuano only: 7 categories x 6 levels. Each level is one word (4-7 letters, growing with the level) with its English meaning and a dictionary clue. Loaded at runtime by WordleData through Resources/LevelDataRegistry.asset (Wordle Files, slot 0).",
+ "status": "DRAFT - the words were picked automatically from the dictionary files (clean single-meaning entries first, one meaning per level) and still need a native-speaker review. Edit this file to change a word; keep each category's levels in order from shortest to longest word. Words must use letters A-Z only.",
+ "name": "Cebuano",
+ "categories": [
+  {
+   "name": "Animals",
+   "levels": [
+    {
+     "word": "ISDA",
+     "meaning": "fish",
+     "clue": "Fish, whether alive or as food."
+    },
+    {
+     "word": "ITIK",
+     "meaning": "duck",
+     "clue": "Duck."
+    },
+    {
+     "word": "MANOK",
+     "meaning": "chicken",
+     "clue": "A chicken, rooster, or fowl."
+    },
+    {
+     "word": "BAKIT",
+     "meaning": "frog",
+     "clue": "Frog."
+    },
+    {
+     "word": "KABAYO",
+     "meaning": "horse",
+     "clue": "A horse."
+    },
+    {
+     "word": "LANGGAM",
+     "meaning": "bird",
+     "clue": "Bird; fowl; swallow."
+    }
+   ]
+  },
+  {
+   "name": "Food and drink",
+   "levels": [
+    {
+     "word": "ASIN",
+     "meaning": "salt",
+     "clue": "Salt, used to season and preserve food."
+    },
+    {
+     "word": "AHOS",
+     "meaning": "garlic",
+     "clue": "Garlic."
+    },
+    {
+     "word": "TUBIG",
+     "meaning": "water",
+     "clue": "Water, for drinking, washing, and cooking."
+    },
+    {
+     "word": "ITLOG",
+     "meaning": "egg",
+     "clue": "An egg, especially a chicken egg."
+    },
+    {
+     "word": "ASUKAL",
+     "meaning": "sugar",
+     "clue": "Sugar."
+    },
+    {
+     "word": "TINAPAY",
+     "meaning": "bread",
+     "clue": "Bread; also baked pastry."
+    }
+   ]
+  },
+  {
+   "name": "Body",
+   "levels": [
+    {
+     "word": "MATA",
+     "meaning": "eye",
+     "clue": "The eye; also means to wake up."
+    },
+    {
+     "word": "BABA",
+     "meaning": "mouth",
+     "clue": "Mouth."
+    },
+    {
+     "word": "BUHOK",
+     "meaning": "hair",
+     "clue": "The hair on a person's head."
+    },
+    {
+     "word": "ILONG",
+     "meaning": "nose",
+     "clue": "The nose."
+    },
+    {
+     "word": "PUNOAN",
+     "meaning": "head",
+     "clue": "Head; leader; official; central; grand; main; origin; primary; tree."
+    },
+    {
+     "word": "DUNGGAN",
+     "meaning": "ear",
+     "clue": "Ear; ears."
+    }
+   ]
+  },
+  {
+   "name": "Family and people",
+   "levels": [
+    {
+     "word": "ITAY",
+     "meaning": "father",
+     "clue": "Father."
+    },
+    {
+     "word": "ANAK",
+     "meaning": "child",
+     "clue": "Child; offspring; son, daughter."
+    },
+    {
+     "word": "NANAY",
+     "meaning": "mother",
+     "clue": "Mother; mama; mommy."
+    },
+    {
+     "word": "UYANG",
+     "meaning": "grandmother",
+     "clue": "Grandmother."
+    },
+    {
+     "word": "MASUSO",
+     "meaning": "baby",
+     "clue": "Baby; infant; suckling; child."
+    },
+    {
+     "word": "SATIGGA",
+     "meaning": "friend",
+     "clue": "Friend."
+    }
+   ]
+  },
+  {
+   "name": "Home and things",
+   "levels": [
+    {
+     "word": "KAMA",
+     "meaning": "bed",
+     "clue": "Bed."
+    },
+    {
+     "word": "ILAW",
+     "meaning": "light",
+     "clue": "Light."
+    },
+    {
+     "word": "BALAY",
+     "meaning": "house",
+     "clue": "A house or home where a family lives."
+    },
+    {
+     "word": "LUKOB",
+     "meaning": "door",
+     "clue": "Door."
+    },
+    {
+     "word": "LAMESA",
+     "meaning": "table",
+     "clue": "A table for eating or working."
+    },
+    {
+     "word": "BENTANA",
+     "meaning": "window",
+     "clue": "Window."
+    }
+   ]
+  },
+  {
+   "name": "Nature and weather",
+   "levels": [
+    {
+     "word": "ULAN",
+     "meaning": "rain",
+     "clue": "Rain; rainwater; rain."
+    },
+    {
+     "word": "SUBA",
+     "meaning": "river",
+     "clue": "River; shore."
+    },
+    {
+     "word": "GABON",
+     "meaning": "cloud",
+     "clue": "Cloud."
+    },
+    {
+     "word": "DAGAT",
+     "meaning": "sea",
+     "clue": "The sea or ocean."
+    },
+    {
+     "word": "BITUON",
+     "meaning": "star",
+     "clue": "Star; start."
+    },
+    {
+     "word": "HABAGAT",
+     "meaning": "wind",
+     "clue": "Wind."
+    }
+   ]
+  },
+  {
+   "name": "Numbers",
+   "levels": [
+    {
+     "word": "DUHA",
+     "meaning": "two",
+     "clue": "The number two."
+    },
+    {
+     "word": "TRES",
+     "meaning": "three",
+     "clue": "Three."
+    },
+    {
+     "word": "SAYES",
+     "meaning": "six",
+     "clue": "Six."
+    },
+    {
+     "word": "SIETE",
+     "meaning": "seven",
+     "clue": "Seven."
+    },
+    {
+     "word": "KUATRO",
+     "meaning": "four",
+     "clue": "Four."
+    },
+    {
+     "word": "NAHAUNA",
+     "meaning": "first",
+     "clue": "First; prime."
+    }
+   ]
+  }
+ ]
+}

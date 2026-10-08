@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jeremy-profile",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5517", "--directory", "E:/Users/Documents/Unity Projects/Game_Language-feature-menu/Jeremy_Ban_Finals_Act1"],
+      "port": 5517
+    },
+    {
+      "name": "portfolio",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5520", "--directory", "E:/Users/Documents/Unity Projects/Game_Language-feature-menu/Portfolio"],
+      "port": 5520
+    },
+    {
+      "name": "bgm-ideas",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5521", "--directory", "E:/Users/Documents/Unity Projects/Game_Language-feature-menu/BGM Ideas"],
+      "port": 5521
+    },
+    {
+      "name": "sfx-ideas",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5522", "--directory", "E:/Users/Documents/Unity Projects/Game_Language-feature-menu/SFX Ideas"],
+      "port": 5522
+    }
+  ]
+}

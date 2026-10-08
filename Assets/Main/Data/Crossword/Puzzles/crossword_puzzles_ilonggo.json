@@ -1,0 +1,1491 @@
+{
+ "purpose": "Crossword puzzles for Lakbay Salita, Ilonggo only: 7 categories x 3 sizes (Small 5 words, Medium 8, Large 11). Each word has its grid position (row and col from the top-left, across = true for across and false for down), its clue number and its clue. Loaded at runtime by CrosswordCategoryData through Resources/LevelDataRegistry.asset (Crossword Files, slot 1).",
+ "status": "DRAFT - the words were picked automatically from the dictionary files (clean single-meaning entries first, one meaning per word) and the grids were laid out by a generator. The words still need a native-speaker review. To change a word the grid has to be generated again, so send the corrections and ask for the puzzles to be rebuilt instead of editing the positions by hand.",
+ "name": "Ilonggo",
+ "categories": [
+  {
+   "name": "Animals",
+   "puzzles": [
+    {
+     "size": "Small",
+     "words": [
+      {
+       "answer": "ISDA",
+       "clue": "This word means fish.",
+       "row": 0,
+       "col": 0,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "KUDING",
+       "clue": "This word means cat.",
+       "row": 0,
+       "col": 2,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "PATO",
+       "clue": "Duck; to pommel, punch, box.",
+       "row": 0,
+       "col": 6,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "AYAM",
+       "clue": "Dog; to send a dog after, pursue with a dog.",
+       "row": 1,
+       "col": 4,
+       "across": true,
+       "number": 4
+      },
+      {
+       "answer": "ALIMOKON",
+       "clue": "A bird; a kind of wild pigeon.",
+       "row": 3,
+       "col": 0,
+       "across": true,
+       "number": 5
+      }
+     ]
+    },
+    {
+     "size": "Medium",
+     "words": [
+      {
+       "answer": "SAWA",
+       "clue": "This word means snake; wife, etc.",
+       "row": 0,
+       "col": 3,
+       "across": true,
+       "number": 1
+      },
+      {
+       "answer": "AYAM",
+       "clue": "Dog; to send a dog after, pursue with a dog.",
+       "row": 0,
+       "col": 4,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "KUDING",
+       "clue": "This word means cat.",
+       "row": 1,
+       "col": 7,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "KABRA",
+       "clue": "Goat; engine for throwing stones, catapult, battering ram; ghost; to batter down, force an entrance.",
+       "row": 2,
+       "col": 0,
+       "across": true,
+       "number": 4
+      },
+      {
+       "answer": "KABAYO",
+       "clue": "A horse; also to ride on horseback.",
+       "row": 2,
+       "col": 0,
+       "across": false,
+       "number": 4
+      },
+      {
+       "answer": "ALIMOKON",
+       "clue": "A bird; a kind of wild pigeon.",
+       "row": 5,
+       "col": 0,
+       "across": true,
+       "number": 5
+      },
+      {
+       "answer": "ISDA",
+       "clue": "This word means fish.",
+       "row": 5,
+       "col": 2,
+       "across": false,
+       "number": 6
+      },
+      {
+       "answer": "PATO",
+       "clue": "Duck; to pommel, punch, box.",
+       "row": 8,
+       "col": 1,
+       "across": true,
+       "number": 7
+      }
+     ]
+    },
+    {
+     "size": "Large",
+     "words": [
+      {
+       "answer": "KABRA",
+       "clue": "Goat; engine for throwing stones, catapult, battering ram; ghost; to batter down, force an entrance.",
+       "row": 0,
+       "col": 1,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "BAO",
+       "clue": "A small tortoise or turtle.",
+       "row": 0,
+       "col": 3,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "KUDING",
+       "clue": "This word means cat.",
+       "row": 0,
+       "col": 8,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "AYAM",
+       "clue": "Dog; to send a dog after, pursue with a dog.",
+       "row": 1,
+       "col": 1,
+       "across": true,
+       "number": 4
+      },
+      {
+       "answer": "ISDA",
+       "clue": "This word means fish.",
+       "row": 2,
+       "col": 6,
+       "across": true,
+       "number": 5
+      },
+      {
+       "answer": "ALIMOKON",
+       "clue": "A bird; a kind of wild pigeon.",
+       "row": 4,
+       "col": 1,
+       "across": true,
+       "number": 6
+      },
+      {
+       "answer": "LAGSAW",
+       "clue": "This word means deer.",
+       "row": 4,
+       "col": 2,
+       "across": false,
+       "number": 7
+      },
+      {
+       "answer": "KABAYO",
+       "clue": "A horse; also to ride on horseback.",
+       "row": 4,
+       "col": 6,
+       "across": false,
+       "number": 8
+      },
+      {
+       "answer": "BAGIS",
+       "clue": "A shark; a greedy, artful fellow, a sharper, shark, cheat, crook.",
+       "row": 6,
+       "col": 0,
+       "across": true,
+       "number": 9
+      },
+      {
+       "answer": "SAWA",
+       "clue": "This word means snake; wife, etc.",
+       "row": 7,
+       "col": 5,
+       "across": true,
+       "number": 10
+      },
+      {
+       "answer": "PATO",
+       "clue": "Duck; to pommel, punch, box.",
+       "row": 8,
+       "col": 1,
+       "across": true,
+       "number": 11
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Food and drink",
+   "puzzles": [
+    {
+     "size": "Small",
+     "words": [
+      {
+       "answer": "AHOS",
+       "clue": "Garlic; leek; to tease, to stroke or caress a child against its will, to pat or fondle a child averse to such handling till it cries, gets angry or runs away.",
+       "row": 0,
+       "col": 0,
+       "across": true,
+       "number": 1
+      },
+      {
+       "answer": "ASIN",
+       "clue": "Salt; to salt or season food.",
+       "row": 0,
+       "col": 0,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "AGWA",
+       "clue": "Water; perfume, scented water, scent.",
+       "row": 1,
+       "col": 4,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "ITLOG",
+       "clue": "This word means an egg; to lay eggs.",
+       "row": 2,
+       "col": 0,
+       "across": true,
+       "number": 3
+      },
+      {
+       "answer": "PAN",
+       "clue": "Bread; A prefix denoting plurality.",
+       "row": 4,
+       "col": 3,
+       "across": true,
+       "number": 4
+      }
+     ]
+    },
+    {
+     "size": "Medium",
+     "words": [
+      {
+       "answer": "PAN",
+       "clue": "Bread; A prefix denoting plurality.",
+       "row": 0,
+       "col": 0,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "ASIN",
+       "clue": "Salt; to salt or season food.",
+       "row": 1,
+       "col": 0,
+       "across": true,
+       "number": 2
+      },
+      {
+       "answer": "ITLOG",
+       "clue": "This word means an egg; to lay eggs.",
+       "row": 1,
+       "col": 2,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "AGWA",
+       "clue": "Water; perfume, scented water, scent.",
+       "row": 3,
+       "col": 5,
+       "across": true,
+       "number": 4
+      },
+      {
+       "answer": "ASUKAR",
+       "clue": "Sugar; to make sugar including all the operations in the final stage of the process of sugar-milling, transferring the pulút.",
+       "row": 3,
+       "col": 5,
+       "across": false,
+       "number": 4
+      },
+      {
+       "answer": "AHOS",
+       "clue": "Garlic; leek; to tease, to stroke or caress a child against its will, to pat or fondle a child averse to such handling till it cries, gets angry or runs away.",
+       "row": 3,
+       "col": 8,
+       "across": false,
+       "number": 5
+      },
+      {
+       "answer": "SOPAS",
+       "clue": "Soup; slices of bread for soup.",
+       "row": 4,
+       "col": 1,
+       "across": true,
+       "number": 6
+      },
+      {
+       "answer": "SEBUYAS",
+       "clue": "This word means onion.",
+       "row": 7,
+       "col": 0,
+       "across": true,
+       "number": 7
+      }
+     ]
+    },
+    {
+     "size": "Large",
+     "words": [
+      {
+       "answer": "ASUKAR",
+       "clue": "Sugar; to make sugar including all the operations in the final stage of the process of sugar-milling, transferring the pulút.",
+       "row": 0,
+       "col": 0,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "SAGING",
+       "clue": "This word means the banana.",
+       "row": 0,
+       "col": 5,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "SEBUYAS",
+       "clue": "This word means onion.",
+       "row": 1,
+       "col": 0,
+       "across": true,
+       "number": 3
+      },
+      {
+       "answer": "SOPAS",
+       "clue": "Soup; slices of bread for soup.",
+       "row": 2,
+       "col": 8,
+       "across": false,
+       "number": 4
+      },
+      {
+       "answer": "ASIN",
+       "clue": "Salt; to salt or season food.",
+       "row": 3,
+       "col": 3,
+       "across": false,
+       "number": 5
+      },
+      {
+       "answer": "ITLOG",
+       "clue": "This word means an egg; to lay eggs.",
+       "row": 3,
+       "col": 5,
+       "across": true,
+       "number": 6
+      },
+      {
+       "answer": "AHOS",
+       "clue": "Garlic; leek; to tease, to stroke or caress a child against its will, to pat or fondle a child averse to such handling till it cries, gets angry or runs away.",
+       "row": 4,
+       "col": 0,
+       "across": true,
+       "number": 7
+      },
+      {
+       "answer": "GATAS",
+       "clue": "This word means milk; to milk.",
+       "row": 5,
+       "col": 5,
+       "across": true,
+       "number": 8
+      },
+      {
+       "answer": "AGWA",
+       "clue": "Water; perfume, scented water, scent.",
+       "row": 5,
+       "col": 6,
+       "across": false,
+       "number": 9
+      },
+      {
+       "answer": "PAN",
+       "clue": "Bread; A prefix denoting plurality.",
+       "row": 6,
+       "col": 1,
+       "across": true,
+       "number": 10
+      },
+      {
+       "answer": "TSA",
+       "clue": "This word means tea.",
+       "row": 8,
+       "col": 4,
+       "across": true,
+       "number": 11
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Body",
+   "puzzles": [
+    {
+     "size": "Small",
+     "words": [
+      {
+       "answer": "BOHOK",
+       "clue": "This word means hair or tresses.",
+       "row": 0,
+       "col": 2,
+       "across": true,
+       "number": 1
+      },
+      {
+       "answer": "KABESA",
+       "clue": "Head; chief, lieutenant; intellect, understanding.",
+       "row": 0,
+       "col": 6,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "ILONG",
+       "clue": "This word means the nose.",
+       "row": 2,
+       "col": 4,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "MATA",
+       "clue": "The eye or sight; in some areas it also means a blood relation.",
+       "row": 3,
+       "col": 0,
+       "across": false,
+       "number": 4
+      },
+      {
+       "answer": "TALINGA",
+       "clue": "The ear; anything resembling an ear, as a small handle, etc.",
+       "row": 5,
+       "col": 0,
+       "across": true,
+       "number": 5
+      }
+     ]
+    },
+    {
+     "size": "Medium",
+     "words": [
+      {
+       "answer": "ILONG",
+       "clue": "This word means the nose.",
+       "row": 0,
+       "col": 7,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "BOHOK",
+       "clue": "This word means hair or tresses.",
+       "row": 2,
+       "col": 4,
+       "across": true,
+       "number": 2
+      },
+      {
+       "answer": "KABESA",
+       "clue": "Head; chief, lieutenant; intellect, understanding.",
+       "row": 3,
+       "col": 3,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "TALINGA",
+       "clue": "The ear; anything resembling an ear, as a small handle, etc.",
+       "row": 4,
+       "col": 2,
+       "across": true,
+       "number": 4
+      },
+      {
+       "answer": "NGIPON",
+       "clue": "This word means a tooth.",
+       "row": 4,
+       "col": 6,
+       "across": false,
+       "number": 5
+      },
+      {
+       "answer": "ALIMA",
+       "clue": "The hand; to take in hand, to handle or take care of.",
+       "row": 4,
+       "col": 8,
+       "across": false,
+       "number": 6
+      },
+      {
+       "answer": "DILA",
+       "clue": "The tongue; to lick with the tongue.",
+       "row": 5,
+       "col": 1,
+       "across": false,
+       "number": 7
+      },
+      {
+       "answer": "MATA",
+       "clue": "The eye or sight; in some areas it also means a blood relation.",
+       "row": 8,
+       "col": 0,
+       "across": true,
+       "number": 8
+      }
+     ]
+    },
+    {
+     "size": "Large",
+     "words": [
+      {
+       "answer": "KAHIG",
+       "clue": "Foot; to remove, push or kick off as with the feet; to scratch with the feet as a chicken.",
+       "row": 0,
+       "col": 2,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "ILONG",
+       "clue": "This word means the nose.",
+       "row": 0,
+       "col": 5,
+       "across": true,
+       "number": 2
+      },
+      {
+       "answer": "NGIPON",
+       "clue": "This word means a tooth.",
+       "row": 0,
+       "col": 8,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "BOHOK",
+       "clue": "This word means hair or tresses.",
+       "row": 2,
+       "col": 0,
+       "across": true,
+       "number": 4
+      },
+      {
+       "answer": "KABESA",
+       "clue": "Head; chief, lieutenant; intellect, understanding.",
+       "row": 2,
+       "col": 4,
+       "across": false,
+       "number": 5
+      },
+      {
+       "answer": "ALIMA",
+       "clue": "The hand; to take in hand, to handle or take care of.",
+       "row": 2,
+       "col": 6,
+       "across": true,
+       "number": 6
+      },
+      {
+       "answer": "BUTKON",
+       "clue": "This word means the arm.",
+       "row": 4,
+       "col": 4,
+       "across": true,
+       "number": 7
+      },
+      {
+       "answer": "TIYAN",
+       "clue": "The stomach, belly, or abdomen.",
+       "row": 6,
+       "col": 6,
+       "across": false,
+       "number": 8
+      },
+      {
+       "answer": "MATA",
+       "clue": "The eye or sight; in some areas it also means a blood relation.",
+       "row": 6,
+       "col": 9,
+       "across": false,
+       "number": 9
+      },
+      {
+       "answer": "TALINGA",
+       "clue": "The ear; anything resembling an ear, as a small handle, etc.",
+       "row": 7,
+       "col": 3,
+       "across": true,
+       "number": 10
+      },
+      {
+       "answer": "DILA",
+       "clue": "The tongue; to lick with the tongue.",
+       "row": 9,
+       "col": 3,
+       "across": true,
+       "number": 11
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Family and people",
+   "puzzles": [
+    {
+     "size": "Small",
+     "words": [
+      {
+       "answer": "BATA",
+       "clue": "A child, baby, boy, or girl; the same spelling also means uncle.",
+       "row": 0,
+       "col": 0,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "ABUELO",
+       "clue": "This word means grandfather.",
+       "row": 0,
+       "col": 3,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "AMAY",
+       "clue": "A father; to call someone father.",
+       "row": 1,
+       "col": 5,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "ABUELA",
+       "clue": "This word means grandmother.",
+       "row": 3,
+       "col": 0,
+       "across": true,
+       "number": 4
+      },
+      {
+       "answer": "ILOY",
+       "clue": "A mother; to be or become a mother.",
+       "row": 5,
+       "col": 1,
+       "across": true,
+       "number": 5
+      }
+     ]
+    },
+    {
+     "size": "Medium",
+     "words": [
+      {
+       "answer": "TIO",
+       "clue": "Uncle; master, Sir, Mr., friend; puppy, whelp, young dog.",
+       "row": 0,
+       "col": 2,
+       "across": true,
+       "number": 1
+      },
+      {
+       "answer": "ILOY",
+       "clue": "A mother; to be or become a mother.",
+       "row": 0,
+       "col": 3,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "AMAY",
+       "clue": "A father; to call someone father.",
+       "row": 3,
+       "col": 0,
+       "across": true,
+       "number": 3
+      },
+      {
+       "answer": "ABUELA",
+       "clue": "This word means grandmother.",
+       "row": 3,
+       "col": 0,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "MARIDO",
+       "clue": "This word means husband.",
+       "row": 3,
+       "col": 5,
+       "across": false,
+       "number": 4
+      },
+      {
+       "answer": "BATA",
+       "clue": "A child, baby, boy, or girl; the same spelling also means uncle.",
+       "row": 4,
+       "col": 4,
+       "across": true,
+       "number": 5
+      },
+      {
+       "answer": "ALING",
+       "clue": "Aunt; fostermother; dear old woman, kind soul.",
+       "row": 6,
+       "col": 3,
+       "across": true,
+       "number": 6
+      },
+      {
+       "answer": "ABUELO",
+       "clue": "This word means grandfather.",
+       "row": 8,
+       "col": 0,
+       "across": true,
+       "number": 7
+      }
+     ]
+    },
+    {
+     "size": "Large",
+     "words": [
+      {
+       "answer": "REY",
+       "clue": "This word means king.",
+       "row": 0,
+       "col": 6,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "ABUELA",
+       "clue": "This word means grandmother.",
+       "row": 1,
+       "col": 3,
+       "across": true,
+       "number": 2
+      },
+      {
+       "answer": "AMAY",
+       "clue": "A father; to call someone father.",
+       "row": 1,
+       "col": 3,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "ABUELO",
+       "clue": "This word means grandfather.",
+       "row": 1,
+       "col": 8,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "TIO",
+       "clue": "Uncle; master, Sir, Mr., friend; puppy, whelp, young dog.",
+       "row": 3,
+       "col": 0,
+       "across": false,
+       "number": 4
+      },
+      {
+       "answer": "APO",
+       "clue": "A grandchild; the word is also used for a grandfather.",
+       "row": 3,
+       "col": 3,
+       "across": true,
+       "number": 5
+      },
+      {
+       "answer": "ILOY",
+       "clue": "A mother; to be or become a mother.",
+       "row": 4,
+       "col": 0,
+       "across": true,
+       "number": 6
+      },
+      {
+       "answer": "ALING",
+       "clue": "Aunt; fostermother; dear old woman, kind soul.",
+       "row": 4,
+       "col": 6,
+       "across": false,
+       "number": 7
+      },
+      {
+       "answer": "BATA",
+       "clue": "A child, baby, boy, or girl; the same spelling also means uncle.",
+       "row": 5,
+       "col": 4,
+       "across": false,
+       "number": 8
+      },
+      {
+       "answer": "MARIDO",
+       "clue": "This word means husband.",
+       "row": 6,
+       "col": 3,
+       "across": true,
+       "number": 9
+      },
+      {
+       "answer": "HARA",
+       "clue": "This word means queen.",
+       "row": 8,
+       "col": 1,
+       "across": true,
+       "number": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Home and things",
+   "puzzles": [
+    {
+     "size": "Small",
+     "words": [
+      {
+       "answer": "BALAY",
+       "clue": "A house or building; also to begin building a house.",
+       "row": 0,
+       "col": 2,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "GANHAAN",
+       "clue": "This word means door, etc.",
+       "row": 0,
+       "col": 6,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "LAMESA",
+       "clue": "This word means a table.",
+       "row": 1,
+       "col": 1,
+       "across": true,
+       "number": 3
+      },
+      {
+       "answer": "ATOP",
+       "clue": "Roof; to roof, roof in, cover with a roof, make a roof.",
+       "row": 3,
+       "col": 0,
+       "across": false,
+       "number": 4
+      },
+      {
+       "answer": "PINGGAN",
+       "clue": "A plate, dish, or tableware.",
+       "row": 6,
+       "col": 0,
+       "across": true,
+       "number": 5
+      }
+     ]
+    },
+    {
+     "size": "Medium",
+     "words": [
+      {
+       "answer": "KATYA",
+       "clue": "This word means glass; crystal.",
+       "row": 0,
+       "col": 2,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "KUTSARA",
+       "clue": "This word means a spoon; also a shovel.",
+       "row": 0,
+       "col": 7,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "PINGGAN",
+       "clue": "A plate, dish, or tableware.",
+       "row": 0,
+       "col": 9,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "LAMESA",
+       "clue": "This word means a table.",
+       "row": 1,
+       "col": 4,
+       "across": false,
+       "number": 4
+      },
+      {
+       "answer": "BALAY",
+       "clue": "A house or building; also to begin building a house.",
+       "row": 2,
+       "col": 0,
+       "across": false,
+       "number": 5
+      },
+      {
+       "answer": "LIABE",
+       "clue": "Key; to close or lock with a key.",
+       "row": 4,
+       "col": 0,
+       "across": true,
+       "number": 6
+      },
+      {
+       "answer": "GANHAAN",
+       "clue": "This word means door, etc.",
+       "row": 6,
+       "col": 3,
+       "across": true,
+       "number": 7
+      },
+      {
+       "answer": "ATOP",
+       "clue": "Roof; to roof, roof in, cover with a roof, make a roof.",
+       "row": 6,
+       "col": 8,
+       "across": false,
+       "number": 8
+      }
+     ]
+    },
+    {
+     "size": "Large",
+     "words": [
+      {
+       "answer": "KATYA",
+       "clue": "This word means glass; crystal.",
+       "row": 0,
+       "col": 10,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "KOSINA",
+       "clue": "The kitchen; to build or provide a kitchen.",
+       "row": 1,
+       "col": 5,
+       "across": true,
+       "number": 2
+      },
+      {
+       "answer": "KUTSARA",
+       "clue": "This word means a spoon; also a shovel.",
+       "row": 1,
+       "col": 5,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "PINGGAN",
+       "clue": "A plate, dish, or tableware.",
+       "row": 2,
+       "col": 0,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "TENEDOR",
+       "clue": "Fork i.e. table-fork; holder, guardian, keeper.",
+       "row": 3,
+       "col": 2,
+       "across": false,
+       "number": 4
+      },
+      {
+       "answer": "BALAY",
+       "clue": "A house or building; also to begin building a house.",
+       "row": 4,
+       "col": 7,
+       "across": true,
+       "number": 5
+      },
+      {
+       "answer": "GANHAAN",
+       "clue": "This word means door, etc.",
+       "row": 5,
+       "col": 0,
+       "across": true,
+       "number": 6
+      },
+      {
+       "answer": "FAROL",
+       "clue": "Lamp; light, especially a hurricane lamp.",
+       "row": 6,
+       "col": 9,
+       "across": false,
+       "number": 7
+      },
+      {
+       "answer": "LAMESA",
+       "clue": "This word means a table.",
+       "row": 7,
+       "col": 4,
+       "across": true,
+       "number": 8
+      },
+      {
+       "answer": "LIABE",
+       "clue": "Key; to close or lock with a key.",
+       "row": 7,
+       "col": 4,
+       "across": false,
+       "number": 8
+      },
+      {
+       "answer": "ATOP",
+       "clue": "Roof; to roof, roof in, cover with a roof, make a roof.",
+       "row": 9,
+       "col": 4,
+       "across": true,
+       "number": 9
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Nature and weather",
+   "puzzles": [
+    {
+     "size": "Small",
+     "words": [
+      {
+       "answer": "BUKID",
+       "clue": "This word means a mountain.",
+       "row": 0,
+       "col": 0,
+       "across": true,
+       "number": 1
+      },
+      {
+       "answer": "ULAN",
+       "clue": "Rain, a shower, or a downpour; to rain.",
+       "row": 0,
+       "col": 1,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "DAGAT",
+       "clue": "The sea, ocean, or salt water.",
+       "row": 0,
+       "col": 4,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "ARINA",
+       "clue": "This word means sand; flour.",
+       "row": 1,
+       "col": 7,
+       "across": false,
+       "number": 4
+      },
+      {
+       "answer": "BITOON",
+       "clue": "This word means a star or planet.",
+       "row": 4,
+       "col": 2,
+       "across": true,
+       "number": 5
+      }
+     ]
+    },
+    {
+     "size": "Medium",
+     "words": [
+      {
+       "answer": "BAGYO",
+       "clue": "This word means typhoon.",
+       "row": 0,
+       "col": 2,
+       "across": true,
+       "number": 1
+      },
+      {
+       "answer": "BUKID",
+       "clue": "This word means a mountain.",
+       "row": 0,
+       "col": 2,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "DAGUOB",
+       "clue": "Thunder; boom, roar, rolling, peal, reverberation; to thunder, etc.",
+       "row": 2,
+       "col": 0,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "KALAYO",
+       "clue": "Fire or flame; the same spelling also means distance or farness.",
+       "row": 2,
+       "col": 4,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "ARINA",
+       "clue": "This word means sand; flour.",
+       "row": 3,
+       "col": 0,
+       "across": true,
+       "number": 4
+      },
+      {
+       "answer": "ULAN",
+       "clue": "Rain, a shower, or a downpour; to rain.",
+       "row": 3,
+       "col": 6,
+       "across": false,
+       "number": 5
+      },
+      {
+       "answer": "DAGAT",
+       "clue": "The sea, ocean, or salt water.",
+       "row": 5,
+       "col": 3,
+       "across": true,
+       "number": 6
+      },
+      {
+       "answer": "BITOON",
+       "clue": "This word means a star or planet.",
+       "row": 7,
+       "col": 0,
+       "across": true,
+       "number": 7
+      }
+     ]
+    },
+    {
+     "size": "Large",
+     "words": [
+      {
+       "answer": "YELO",
+       "clue": "Ice; to freeze, turn into ice.",
+       "row": 0,
+       "col": 7,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "BUKID",
+       "clue": "This word means a mountain.",
+       "row": 1,
+       "col": 1,
+       "across": true,
+       "number": 2
+      },
+      {
+       "answer": "DAGUOB",
+       "clue": "Thunder; boom, roar, rolling, peal, reverberation; to thunder, etc.",
+       "row": 1,
+       "col": 5,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "HALON",
+       "clue": "This word means shadow.",
+       "row": 2,
+       "col": 10,
+       "across": false,
+       "number": 4
+      },
+      {
+       "answer": "ULAN",
+       "clue": "Rain, a shower, or a downpour; to rain.",
+       "row": 3,
+       "col": 1,
+       "across": false,
+       "number": 5
+      },
+      {
+       "answer": "BAGYO",
+       "clue": "This word means typhoon.",
+       "row": 3,
+       "col": 3,
+       "across": true,
+       "number": 6
+      },
+      {
+       "answer": "ASO",
+       "clue": "Smoke or fumes; to give off smoke.",
+       "row": 4,
+       "col": 8,
+       "across": false,
+       "number": 7
+      },
+      {
+       "answer": "KALAYO",
+       "clue": "Fire or flame; the same spelling also means distance or farness.",
+       "row": 5,
+       "col": 0,
+       "across": true,
+       "number": 8
+      },
+      {
+       "answer": "ARINA",
+       "clue": "This word means sand; flour.",
+       "row": 5,
+       "col": 3,
+       "across": false,
+       "number": 9
+      },
+      {
+       "answer": "BITOON",
+       "clue": "This word means a star or planet.",
+       "row": 6,
+       "col": 5,
+       "across": true,
+       "number": 10
+      },
+      {
+       "answer": "DAGAT",
+       "clue": "The sea, ocean, or salt water.",
+       "row": 9,
+       "col": 2,
+       "across": true,
+       "number": 11
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Numbers",
+   "puzzles": [
+    {
+     "size": "Small",
+     "words": [
+      {
+       "answer": "APAT",
+       "clue": "This word means the number four.",
+       "row": 0,
+       "col": 0,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "SINKO",
+       "clue": "This word means five.",
+       "row": 0,
+       "col": 5,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "DUHA",
+       "clue": "The number two; a pair or couple.",
+       "row": 1,
+       "col": 2,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "ANUM",
+       "clue": "This word means the number six.",
+       "row": 2,
+       "col": 0,
+       "across": true,
+       "number": 4
+      },
+      {
+       "answer": "TATLO",
+       "clue": "This word means three.",
+       "row": 4,
+       "col": 1,
+       "across": true,
+       "number": 5
+      }
+     ]
+    },
+    {
+     "size": "Medium",
+     "words": [
+      {
+       "answer": "SIAM",
+       "clue": "This word means nine.",
+       "row": 0,
+       "col": 0,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "DUHA",
+       "clue": "The number two; a pair or couple.",
+       "row": 1,
+       "col": 2,
+       "across": false,
+       "number": 2
+      },
+      {
+       "answer": "OTSO",
+       "clue": "This word means eight.",
+       "row": 1,
+       "col": 6,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "ANUM",
+       "clue": "This word means the number six.",
+       "row": 2,
+       "col": 0,
+       "across": true,
+       "number": 4
+      },
+      {
+       "answer": "PAMITO",
+       "clue": "Seven; whistle, pipe, penny-whistle, cat-call; the whistle of a steamboat, horn of an automobile.",
+       "row": 4,
+       "col": 1,
+       "across": true,
+       "number": 5
+      },
+      {
+       "answer": "TATLO",
+       "clue": "This word means three.",
+       "row": 4,
+       "col": 5,
+       "across": false,
+       "number": 6
+      },
+      {
+       "answer": "APAT",
+       "clue": "This word means the number four.",
+       "row": 6,
+       "col": 2,
+       "across": true,
+       "number": 7
+      },
+      {
+       "answer": "SINKO",
+       "clue": "This word means five.",
+       "row": 8,
+       "col": 1,
+       "across": true,
+       "number": 8
+      }
+     ]
+    },
+    {
+     "size": "Large",
+     "words": [
+      {
+       "answer": "SIAM",
+       "clue": "This word means nine.",
+       "row": 0,
+       "col": 1,
+       "across": false,
+       "number": 1
+      },
+      {
+       "answer": "APAT",
+       "clue": "This word means the number four.",
+       "row": 0,
+       "col": 3,
+       "across": true,
+       "number": 2
+      },
+      {
+       "answer": "PAMITO",
+       "clue": "Seven; whistle, pipe, penny-whistle, cat-call; the whistle of a steamboat, horn of an automobile.",
+       "row": 0,
+       "col": 4,
+       "across": false,
+       "number": 3
+      },
+      {
+       "answer": "IKATLO",
+       "clue": "This word means third.",
+       "row": 1,
+       "col": 10,
+       "across": false,
+       "number": 4
+      },
+      {
+       "answer": "ANUM",
+       "clue": "This word means the number six.",
+       "row": 2,
+       "col": 1,
+       "across": true,
+       "number": 5
+      },
+      {
+       "answer": "NAPULO",
+       "clue": "This word means the number ten.",
+       "row": 2,
+       "col": 6,
+       "across": false,
+       "number": 6
+      },
+      {
+       "answer": "DUHA",
+       "clue": "The number two; a pair or couple.",
+       "row": 2,
+       "col": 8,
+       "across": false,
+       "number": 7
+      },
+      {
+       "answer": "IKADUHA",
+       "clue": "This word means second.",
+       "row": 3,
+       "col": 4,
+       "across": true,
+       "number": 8
+      },
+      {
+       "answer": "OTSO",
+       "clue": "This word means eight.",
+       "row": 4,
+       "col": 0,
+       "across": false,
+       "number": 9
+      },
+      {
+       "answer": "TATLO",
+       "clue": "This word means three.",
+       "row": 5,
+       "col": 0,
+       "across": true,
+       "number": 10
+      },
+      {
+       "answer": "SINKO",
+       "clue": "This word means five.",
+       "row": 7,
+       "col": 2,
+       "across": true,
+       "number": 11
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

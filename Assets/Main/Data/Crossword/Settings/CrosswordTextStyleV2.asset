@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95181a89c8834c4380b667679d2d3e6, type: 3}
+  m_Name: CrosswordTextStyleV2
+  m_EditorClassIdentifier: 
+  letterFontSize: 40
+  letterFontStyle: 1
+  letterColor: {r: 0.23137255, g: 0.16470589, b: 0.101960786, a: 1}
+  cellNumberFontSize: 16
+  cellNumberColor: {r: 0.41960785, g: 0.32156864, b: 0.21568628, a: 1}
+  borderColor: {r: 0.23137255, g: 0.16470589, b: 0.101960786, a: 1}
+  borderOpacity: 1
+  borderThickness: 3
+  clueNumberFontSize: 32
+  clueNumberColor: {r: 0.23137255, g: 0.16470589, b: 0.101960786, a: 1}
+  clueTextFontSize: 30
+  clueTextColor: {r: 0.23137255, g: 0.16470589, b: 0.101960786, a: 1}

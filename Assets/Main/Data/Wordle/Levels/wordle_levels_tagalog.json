@@ -1,0 +1,252 @@
+{
+ "purpose": "Wordle levels for Lakbay Salita, Tagalog only: 7 categories x 6 levels. Each level is one word (4-7 letters, growing with the level) with its English meaning and a dictionary clue. Loaded at runtime by WordleData through Resources/LevelDataRegistry.asset (Wordle Files, slot 2).",
+ "status": "DRAFT - the words were picked automatically from the dictionary files (clean single-meaning entries first, one meaning per level) and still need a native-speaker review. Edit this file to change a word; keep each category's levels in order from shortest to longest word. Words must use letters A-Z only.",
+ "name": "Tagalog",
+ "categories": [
+  {
+   "name": "Animals",
+   "levels": [
+    {
+     "word": "PUSA",
+     "meaning": "cat",
+     "clue": "A cat."
+    },
+    {
+     "word": "IBON",
+     "meaning": "bird",
+     "clue": "A bird."
+    },
+    {
+     "word": "MANOK",
+     "meaning": "chicken",
+     "clue": "A chicken or fowl."
+    },
+    {
+     "word": "UNGGO",
+     "meaning": "monkey",
+     "clue": "Monkey."
+    },
+    {
+     "word": "PALAKA",
+     "meaning": "frog",
+     "clue": "Frog."
+    },
+    {
+     "word": "KARNERO",
+     "meaning": "sheep",
+     "clue": "Sheep."
+    }
+   ]
+  },
+  {
+   "name": "Food and drink",
+   "levels": [
+    {
+     "word": "ALAT",
+     "meaning": "salt",
+     "clue": "Salt; salty; saltiness; policeman."
+    },
+    {
+     "word": "AGWA",
+     "meaning": "water",
+     "clue": "Water."
+    },
+    {
+     "word": "ITLOG",
+     "meaning": "egg",
+     "clue": "An egg."
+    },
+    {
+     "word": "SOPAS",
+     "meaning": "soup",
+     "clue": "Soup."
+    },
+    {
+     "word": "BAWANG",
+     "meaning": "garlic",
+     "clue": "Garlic."
+    },
+    {
+     "word": "TINAPAY",
+     "meaning": "bread",
+     "clue": "Bread."
+    }
+   ]
+  },
+  {
+   "name": "Body",
+   "levels": [
+    {
+     "word": "MATA",
+     "meaning": "eye",
+     "clue": "Eye; sight; view; core; center."
+    },
+    {
+     "word": "DILA",
+     "meaning": "tongue",
+     "clue": "The tongue."
+    },
+    {
+     "word": "BUHOK",
+     "meaning": "hair",
+     "clue": "Hair."
+    },
+    {
+     "word": "TENGA",
+     "meaning": "ear",
+     "clue": "Ear."
+    },
+    {
+     "word": "KAYUYO",
+     "meaning": "belly",
+     "clue": "Belly; paunch; abdomen."
+    },
+    {
+     "word": "LIKURAN",
+     "meaning": "back",
+     "clue": "Back; other side; background."
+    }
+   ]
+  },
+  {
+   "name": "Family and people",
+   "levels": [
+    {
+     "word": "BATA",
+     "meaning": "child",
+     "clue": "A baby or child; also used to mean young."
+    },
+    {
+     "word": "IMPO",
+     "meaning": "grandmother",
+     "clue": "Grandmother."
+    },
+    {
+     "word": "NANAY",
+     "meaning": "mother",
+     "clue": "Mother or mom."
+    },
+    {
+     "word": "TATAY",
+     "meaning": "father",
+     "clue": "Dad, daddy, or papa."
+    },
+    {
+     "word": "TIYONG",
+     "meaning": "uncle",
+     "clue": "Uncle; stepfather."
+    },
+    {
+     "word": "ABUWELO",
+     "meaning": "grandfather",
+     "clue": "Grandfather."
+    }
+   ]
+  },
+  {
+   "name": "Home and things",
+   "levels": [
+    {
+     "word": "ILAW",
+     "meaning": "light",
+     "clue": "Light, a lamp, or illumination."
+    },
+    {
+     "word": "YAWE",
+     "meaning": "key",
+     "clue": "Key."
+    },
+    {
+     "word": "BAHAY",
+     "meaning": "house",
+     "clue": "A house, dwelling, or home."
+    },
+    {
+     "word": "PINTO",
+     "meaning": "door",
+     "clue": "Door."
+    },
+    {
+     "word": "BUBONG",
+     "meaning": "roof",
+     "clue": "Roof."
+    },
+    {
+     "word": "BINTANA",
+     "meaning": "window",
+     "clue": "A window."
+    }
+   ]
+  },
+  {
+   "name": "Nature and weather",
+   "levels": [
+    {
+     "word": "ULAP",
+     "meaning": "cloud",
+     "clue": "Cloud; fog; mist."
+    },
+    {
+     "word": "ULAN",
+     "meaning": "rain",
+     "clue": "Rain or rainfall."
+    },
+    {
+     "word": "ADLAW",
+     "meaning": "sun",
+     "clue": "Sun."
+    },
+    {
+     "word": "DAGAT",
+     "meaning": "sea",
+     "clue": "The sea, ocean, bay, or gulf."
+    },
+    {
+     "word": "BITUIN",
+     "meaning": "star",
+     "clue": "Star; star in movies, drama etc."
+    },
+    {
+     "word": "PAGBAHA",
+     "meaning": "flood",
+     "clue": "Flood; floods; an overflowing."
+    }
+   ]
+  },
+  {
+   "name": "Numbers",
+   "levels": [
+    {
+     "word": "TRES",
+     "meaning": "three",
+     "clue": "Three."
+    },
+    {
+     "word": "APAT",
+     "meaning": "four",
+     "clue": "The number four."
+    },
+    {
+     "word": "DALWA",
+     "meaning": "two",
+     "clue": "Two; couple; dual; twofold."
+    },
+    {
+     "word": "MEDYO",
+     "meaning": "half",
+     "clue": "Half; semi-; comparatively; somewhat; pretty; fairly; partial."
+    },
+    {
+     "word": "ULTIMA",
+     "meaning": "last",
+     "clue": "Last."
+    },
+    {
+     "word": "PRIMERA",
+     "meaning": "first",
+     "clue": "First; firsthand; new."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,791 @@
+{
+ "purpose": "Word Search puzzles for Lakbay Salita, Ilonggo only: 7 categories x 3 puzzles (A, B, C) of 7-8 native words, each with its English meaning. Words are 3-8 letters so they fit the 10x10 grid. Loaded at runtime by WordSearchData through Resources/LevelDataRegistry.asset (Word Search Files, slot 1).",
+ "status": "DRAFT - the words were picked automatically from the dictionary files and still need a native-speaker review (spelling, dialect, loanwords such as the Spanish-style numbers). Edit this file to change a word; keep each puzzle at 7-8 words.",
+ "name": "Ilonggo",
+ "categories": [
+  {
+   "name": "Animals",
+   "puzzles": [
+    {
+     "id": "A",
+     "words": [
+      {
+       "word": "IDO",
+       "meaning": "dog"
+      },
+      {
+       "word": "PISO",
+       "meaning": "chicken"
+      },
+      {
+       "word": "PISPIS",
+       "meaning": "bird"
+      },
+      {
+       "word": "ISDA",
+       "meaning": "fish"
+      },
+      {
+       "word": "PATO",
+       "meaning": "duck"
+      },
+      {
+       "word": "SAWA",
+       "meaning": "snake"
+      },
+      {
+       "word": "PANKA",
+       "meaning": "frog"
+      },
+      {
+       "word": "KABAYO",
+       "meaning": "horse"
+      }
+     ]
+    },
+    {
+     "id": "B",
+     "words": [
+      {
+       "word": "IDO",
+       "meaning": "dog"
+      },
+      {
+       "word": "KUTI",
+       "meaning": "cat"
+      },
+      {
+       "word": "PISPIS",
+       "meaning": "bird"
+      },
+      {
+       "word": "IBOY",
+       "meaning": "monkey"
+      },
+      {
+       "word": "BABOY",
+       "meaning": "pig"
+      },
+      {
+       "word": "BAKA",
+       "meaning": "cow"
+      },
+      {
+       "word": "KABRA",
+       "meaning": "goat"
+      },
+      {
+       "word": "ALIMANGO",
+       "meaning": "crab"
+      }
+     ]
+    },
+    {
+     "id": "C",
+     "words": [
+      {
+       "word": "KUTI",
+       "meaning": "cat"
+      },
+      {
+       "word": "PISO",
+       "meaning": "chicken"
+      },
+      {
+       "word": "BAO",
+       "meaning": "turtle"
+      },
+      {
+       "word": "LAGSAW",
+       "meaning": "deer"
+      },
+      {
+       "word": "BAGIS",
+       "meaning": "shark"
+      },
+      {
+       "word": "IGI",
+       "meaning": "snail"
+      },
+      {
+       "word": "ILAGA",
+       "meaning": "mouse"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Food and drink",
+   "puzzles": [
+    {
+     "id": "A",
+     "words": [
+      {
+       "word": "ASIN",
+       "meaning": "salt"
+      },
+      {
+       "word": "AHOS",
+       "meaning": "garlic"
+      },
+      {
+       "word": "AGWA",
+       "meaning": "water"
+      },
+      {
+       "word": "ITLOG",
+       "meaning": "egg"
+      },
+      {
+       "word": "ASUKAR",
+       "meaning": "sugar"
+      },
+      {
+       "word": "BOMBAY",
+       "meaning": "onion"
+      },
+      {
+       "word": "SOPAS",
+       "meaning": "soup"
+      },
+      {
+       "word": "SAGING",
+       "meaning": "banana"
+      }
+     ]
+    },
+    {
+     "id": "B",
+     "words": [
+      {
+       "word": "ASIN",
+       "meaning": "salt"
+      },
+      {
+       "word": "PAN",
+       "meaning": "bread"
+      },
+      {
+       "word": "AGWA",
+       "meaning": "water"
+      },
+      {
+       "word": "GATAS",
+       "meaning": "milk"
+      },
+      {
+       "word": "AROS",
+       "meaning": "rice"
+      },
+      {
+       "word": "DAPLI",
+       "meaning": "meat"
+      },
+      {
+       "word": "TSA",
+       "meaning": "tea"
+      },
+      {
+       "word": "KAPE",
+       "meaning": "coffee"
+      }
+     ]
+    },
+    {
+     "id": "C",
+     "words": [
+      {
+       "word": "PAN",
+       "meaning": "bread"
+      },
+      {
+       "word": "AHOS",
+       "meaning": "garlic"
+      },
+      {
+       "word": "BINO",
+       "meaning": "wine"
+      },
+      {
+       "word": "LANGGAW",
+       "meaning": "vinegar"
+      },
+      {
+       "word": "MAMON",
+       "meaning": "cake"
+      },
+      {
+       "word": "NARANHA",
+       "meaning": "orange"
+      },
+      {
+       "word": "BUNGA",
+       "meaning": "fruit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Body",
+   "puzzles": [
+    {
+     "id": "A",
+     "words": [
+      {
+       "word": "ULO",
+       "meaning": "head"
+      },
+      {
+       "word": "MATA",
+       "meaning": "eye"
+      },
+      {
+       "word": "TALINGA",
+       "meaning": "ear"
+      },
+      {
+       "word": "ILONG",
+       "meaning": "nose"
+      },
+      {
+       "word": "DILA",
+       "meaning": "tongue"
+      },
+      {
+       "word": "ONTO",
+       "meaning": "tooth"
+      },
+      {
+       "word": "MANO",
+       "meaning": "hand"
+      },
+      {
+       "word": "PIE",
+       "meaning": "foot"
+      }
+     ]
+    },
+    {
+     "id": "B",
+     "words": [
+      {
+       "word": "ULO",
+       "meaning": "head"
+      },
+      {
+       "word": "PILO",
+       "meaning": "hair"
+      },
+      {
+       "word": "TALINGA",
+       "meaning": "ear"
+      },
+      {
+       "word": "BRASO",
+       "meaning": "arm"
+      },
+      {
+       "word": "TUDLO",
+       "meaning": "finger"
+      },
+      {
+       "word": "TIYAN",
+       "meaning": "belly"
+      },
+      {
+       "word": "LIKOD",
+       "meaning": "back"
+      },
+      {
+       "word": "KORASON",
+       "meaning": "heart"
+      }
+     ]
+    },
+    {
+     "id": "C",
+     "words": [
+      {
+       "word": "PILO",
+       "meaning": "hair"
+      },
+      {
+       "word": "MATA",
+       "meaning": "eye"
+      },
+      {
+       "word": "DUGO",
+       "meaning": "blood"
+      },
+      {
+       "word": "PANIT",
+       "meaning": "skin"
+      },
+      {
+       "word": "TUHUD",
+       "meaning": "knee"
+      },
+      {
+       "word": "SIKO",
+       "meaning": "elbow"
+      },
+      {
+       "word": "ABAGA",
+       "meaning": "shoulder"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Family and people",
+   "puzzles": [
+    {
+     "id": "A",
+     "words": [
+      {
+       "word": "ILOY",
+       "meaning": "mother"
+      },
+      {
+       "word": "ANAK",
+       "meaning": "child"
+      },
+      {
+       "word": "BAYI",
+       "meaning": "grandmother"
+      },
+      {
+       "word": "UYONG",
+       "meaning": "grandfather"
+      },
+      {
+       "word": "TIO",
+       "meaning": "uncle"
+      },
+      {
+       "word": "TIA",
+       "meaning": "aunt"
+      },
+      {
+       "word": "BANA",
+       "meaning": "husband"
+      },
+      {
+       "word": "UTUD",
+       "meaning": "brother"
+      }
+     ]
+    },
+    {
+     "id": "B",
+     "words": [
+      {
+       "word": "ILOY",
+       "meaning": "mother"
+      },
+      {
+       "word": "AMAY",
+       "meaning": "father"
+      },
+      {
+       "word": "BAYI",
+       "meaning": "grandmother"
+      },
+      {
+       "word": "BADIDOY",
+       "meaning": "boy"
+      },
+      {
+       "word": "ABIAN",
+       "meaning": "friend"
+      },
+      {
+       "word": "HINABLUS",
+       "meaning": "nephew"
+      },
+      {
+       "word": "APO",
+       "meaning": "grandchild"
+      },
+      {
+       "word": "KAPID",
+       "meaning": "twin"
+      }
+     ]
+    },
+    {
+     "id": "C",
+     "words": [
+      {
+       "word": "AMAY",
+       "meaning": "father"
+      },
+      {
+       "word": "ANAK",
+       "meaning": "child"
+      },
+      {
+       "word": "MANUNUON",
+       "meaning": "teacher"
+      },
+      {
+       "word": "DOKTOR",
+       "meaning": "doctor"
+      },
+      {
+       "word": "ASENDERO",
+       "meaning": "farmer"
+      },
+      {
+       "word": "REY",
+       "meaning": "king"
+      },
+      {
+       "word": "HARA",
+       "meaning": "queen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Home and things",
+   "puzzles": [
+    {
+     "id": "A",
+     "words": [
+      {
+       "word": "KASA",
+       "meaning": "house"
+      },
+      {
+       "word": "GAWANG",
+       "meaning": "door"
+      },
+      {
+       "word": "BENTANA",
+       "meaning": "window"
+      },
+      {
+       "word": "KATRE",
+       "meaning": "bed"
+      },
+      {
+       "word": "LAMESA",
+       "meaning": "table"
+      },
+      {
+       "word": "SIYA",
+       "meaning": "chair"
+      },
+      {
+       "word": "IWAG",
+       "meaning": "light"
+      },
+      {
+       "word": "SILHIG",
+       "meaning": "broom"
+      }
+     ]
+    },
+    {
+     "id": "B",
+     "words": [
+      {
+       "word": "KASA",
+       "meaning": "house"
+      },
+      {
+       "word": "ATOP",
+       "meaning": "roof"
+      },
+      {
+       "word": "BENTANA",
+       "meaning": "window"
+      },
+      {
+       "word": "PLAKA",
+       "meaning": "plate"
+      },
+      {
+       "word": "KUTSARA",
+       "meaning": "spoon"
+      },
+      {
+       "word": "KOPA",
+       "meaning": "cup"
+      },
+      {
+       "word": "KATIA",
+       "meaning": "glass"
+      },
+      {
+       "word": "YABI",
+       "meaning": "key"
+      }
+     ]
+    },
+    {
+     "id": "C",
+     "words": [
+      {
+       "word": "ATOP",
+       "meaning": "roof"
+      },
+      {
+       "word": "GAWANG",
+       "meaning": "door"
+      },
+      {
+       "word": "ULUNAN",
+       "meaning": "pillow"
+      },
+      {
+       "word": "KAHA",
+       "meaning": "box"
+      },
+      {
+       "word": "KOSINA",
+       "meaning": "kitchen"
+      },
+      {
+       "word": "HOLOT",
+       "meaning": "room"
+      },
+      {
+       "word": "DINGDING",
+       "meaning": "wall"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Nature and weather",
+   "puzzles": [
+    {
+     "id": "A",
+     "words": [
+      {
+       "word": "ADLAW",
+       "meaning": "sun"
+      },
+      {
+       "word": "BITOON",
+       "meaning": "star"
+      },
+      {
+       "word": "LANGIT",
+       "meaning": "sky"
+      },
+      {
+       "word": "ULAN",
+       "meaning": "rain"
+      },
+      {
+       "word": "BIRA",
+       "meaning": "wind"
+      },
+      {
+       "word": "DAGAT",
+       "meaning": "sea"
+      },
+      {
+       "word": "SUBA",
+       "meaning": "river"
+      },
+      {
+       "word": "BUKID",
+       "meaning": "mountain"
+      }
+     ]
+    },
+    {
+     "id": "B",
+     "words": [
+      {
+       "word": "ADLAW",
+       "meaning": "sun"
+      },
+      {
+       "word": "BULAN",
+       "meaning": "moon"
+      },
+      {
+       "word": "LANGIT",
+       "meaning": "sky"
+      },
+      {
+       "word": "ISLA",
+       "meaning": "island"
+      },
+      {
+       "word": "ARINA",
+       "meaning": "sand"
+      },
+      {
+       "word": "DAMULI",
+       "meaning": "soil"
+      },
+      {
+       "word": "ALON",
+       "meaning": "fire"
+      },
+      {
+       "word": "HADOK",
+       "meaning": "wave"
+      }
+     ]
+    },
+    {
+     "id": "C",
+     "words": [
+      {
+       "word": "BULAN",
+       "meaning": "moon"
+      },
+      {
+       "word": "BITOON",
+       "meaning": "star"
+      },
+      {
+       "word": "KILAT",
+       "meaning": "lightning"
+      },
+      {
+       "word": "BALANGAW",
+       "meaning": "rainbow"
+      },
+      {
+       "word": "BAGIO",
+       "meaning": "typhoon"
+      },
+      {
+       "word": "DAGUOB",
+       "meaning": "thunder"
+      },
+      {
+       "word": "LINAW",
+       "meaning": "lake"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Numbers",
+   "puzzles": [
+    {
+     "id": "A",
+     "words": [
+      {
+       "word": "ISA",
+       "meaning": "one"
+      },
+      {
+       "word": "TOLO",
+       "meaning": "three"
+      },
+      {
+       "word": "APAT",
+       "meaning": "four"
+      },
+      {
+       "word": "SINKO",
+       "meaning": "five"
+      },
+      {
+       "word": "ANUM",
+       "meaning": "six"
+      },
+      {
+       "word": "PITO",
+       "meaning": "seven"
+      },
+      {
+       "word": "OTSO",
+       "meaning": "eight"
+      },
+      {
+       "word": "SIAM",
+       "meaning": "nine"
+      }
+     ]
+    },
+    {
+     "id": "B",
+     "words": [
+      {
+       "word": "ISA",
+       "meaning": "one"
+      },
+      {
+       "word": "DUHA",
+       "meaning": "two"
+      },
+      {
+       "word": "APAT",
+       "meaning": "four"
+      },
+      {
+       "word": "PULO",
+       "meaning": "ten"
+      },
+      {
+       "word": "ANAY",
+       "meaning": "first"
+      },
+      {
+       "word": "IKADUHA",
+       "meaning": "second"
+      },
+      {
+       "word": "IKATLO",
+       "meaning": "third"
+      },
+      {
+       "word": "DURAR",
+       "meaning": "last"
+      }
+     ]
+    },
+    {
+     "id": "C",
+     "words": [
+      {
+       "word": "DUHA",
+       "meaning": "two"
+      },
+      {
+       "word": "TOLO",
+       "meaning": "three"
+      },
+      {
+       "word": "MEDYO",
+       "meaning": "half"
+      },
+      {
+       "word": "GATUS",
+       "meaning": "hundred"
+      },
+      {
+       "word": "MIL",
+       "meaning": "thousand"
+      },
+      {
+       "word": "RAMAK",
+       "meaning": "million"
+      },
+      {
+       "word": "KATLOAN",
+       "meaning": "thirty"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -11,10 +12,19 @@ using UnityEngine;
 /// to the next row (Backspace only edits within the current row). Each typed letter is
 /// shown with the cell's normal TMP font/text — no sprite swapping, no ImageContainer
 /// dependency. If a WordleWordVerifier is assigned, pressing Enter on a full row also
-/// verifies that row against the target word (coloring each cell green/yellow/plain)
+/// verifies that row against the target word (coloring each cell green/yellow/gray)
 /// before advancing; once a row is an exact match, the puzzle is solved and all further
 /// input is ignored. Reads generator.Cells/rows/columns, which
 /// WordleRowsColumnGenerator.Generate() rebuilds each time the grid is (re)generated.
+///
+/// Added for the redesigned Wordle screen (all optional - scenes that do not use them behave as before):
+///  - TypeLetter / Backspace / TryAdvanceRow are public, so the on-screen keyboard can drive the same logic
+///    as the physical keyboard.
+///  - InputEnabled lets WordleGameController block typing (pause menu, result card, time up).
+///  - WordValidator (set by WordleGameController) rejects a full row that is not a real word; the row is kept
+///    and no try is used. Events RowSubmitted, InvalidWord, TooShort and OutOfTries tell the controller what
+///    happened. Failed is true once the last row was submitted without solving the puzzle.
+///  - Tiles that have a WordleTileView show their typed / empty / cursor look.
 /// </summary>
 public class WordleKeyboardTyper : MonoBehaviour
 {
@@ -24,21 +34,47 @@ public class WordleKeyboardTyper : MonoBehaviour
     [Tooltip("Optional: verifies each completed row against a target word and colors cells accordingly. Leave unassigned for free typing with no win condition.")]
     public WordleWordVerifier verifier;
 
+    /// <summary>Raised after a full row was accepted and verified: (row index, whether it was the exact word).</summary>
+    public event Action<int, bool> RowSubmitted;
+
+    /// <summary>Raised when Enter is pressed on a full row that WordValidator rejected (row index).</summary>
+    public event Action<int> InvalidWord;
+
+    /// <summary>Raised when Enter is pressed before the row is full (row index).</summary>
+    public event Action<int> TooShort;
+
+    /// <summary>Raised once, when the last row was submitted without solving the puzzle.</summary>
+    public event Action OutOfTries;
+
+    /// <summary>Optional check for a full row's word (upper case). Return false to reject it as not a real word.</summary>
+    public Func<string, bool> WordValidator;
+
+    /// <summary>Set false to ignore all typing (pause menu, result card).</summary>
+    public bool InputEnabled { get; set; } = true;
+
     private int currentRow = 0;
     private int currentColumn = 0;
     private bool solved = false;
+    private bool failed = false;
+    private bool cursorDirty = true;
 
     /// <summary>True once a row has exactly matched the target word (read by
     /// WordleTimer to stop the countdown once the puzzle is solved).</summary>
     public bool Solved => solved;
 
+    /// <summary>True once every try was used without finding the word.</summary>
+    public bool Failed => failed;
+
+    /// <summary>True when the puzzle is over, solved or not.</summary>
+    public bool Finished => solved || failed;
+
+    /// <summary>0-based index of the row being typed (equals tries used when a row was just submitted).</summary>
+    public int CurrentRow => currentRow;
+
+    private bool CanType => !solved && !failed && InputEnabled;
+
     private void Update()
     {
-        if (solved)
-        {
-            return;
-        }
-
         if (generator == null || generator.Cells == null || generator.Cells.Count == 0)
         {
             return;
@@ -47,6 +83,16 @@ public class WordleKeyboardTyper : MonoBehaviour
         // Keep the cursor valid if the grid was just (re)generated with different dimensions.
         currentRow = Mathf.Clamp(currentRow, 0, Mathf.Max(0, generator.rows - 1));
         currentColumn = Mathf.Clamp(currentColumn, 0, generator.columns);
+
+        if (cursorDirty)
+        {
+            RefreshCursor();
+        }
+
+        if (!CanType)
+        {
+            return;
+        }
 
         string typed = Input.inputString;
         for (int i = 0; i < typed.Length; i++)
@@ -72,8 +118,23 @@ public class WordleKeyboardTyper : MonoBehaviour
         return row * generator.columns + column;
     }
 
-    private void TypeLetter(char letter)
+    private WordleTileView TileAt(int index)
     {
+        if (index < 0 || index >= generator.Cells.Count || generator.Cells[index] == null)
+        {
+            return null;
+        }
+        return generator.Cells[index].GetComponentInParent<WordleTileView>();
+    }
+
+    /// <summary>Types one letter into the next free cell of the current row (ignored when the row is full).</summary>
+    public void TypeLetter(char letter)
+    {
+        if (!CanType || generator == null || generator.Cells == null)
+        {
+            return;
+        }
+
         if (currentColumn >= generator.columns)
         {
             // This row is already full — must press Enter before typing into the next row.
@@ -90,11 +151,24 @@ public class WordleKeyboardTyper : MonoBehaviour
         TMP_Text cellText = generator.Cells[index];
         cellText.text = upper.ToString();
 
+        WordleTileView tile = TileAt(index);
+        if (tile != null)
+        {
+            tile.SetTyped();
+        }
+
         currentColumn++;
+        RefreshCursor();
     }
 
-    private void Backspace()
+    /// <summary>Deletes the last typed letter of the current row.</summary>
+    public void Backspace()
     {
+        if (!CanType || generator == null || generator.Cells == null)
+        {
+            return;
+        }
+
         if (currentColumn <= 0)
         {
             // Can't back up into the previous row — it's already locked in by Enter.
@@ -106,35 +180,116 @@ public class WordleKeyboardTyper : MonoBehaviour
         if (index >= 0 && index < generator.Cells.Count)
         {
             generator.Cells[index].text = string.Empty;
+            WordleTileView tile = TileAt(index);
+            if (tile != null)
+            {
+                tile.SetEmpty();
+            }
         }
+        RefreshCursor();
     }
 
-    private void TryAdvanceRow()
+    /// <summary>Enter: submits the current row (checks it, colours it, and moves to the next row).</summary>
+    public void TryAdvanceRow()
     {
-        if (currentColumn < generator.columns)
+        if (!CanType || generator == null || generator.Cells == null)
         {
-            // Current row isn't full yet — Enter only advances once every cell in the row is filled.
             return;
         }
 
+        if (currentColumn < generator.columns)
+        {
+            // Current row isn't full yet — Enter only advances once every cell in the row is filled.
+            if (currentColumn > 0 && TooShort != null)
+            {
+                TooShort(currentRow);
+            }
+            return;
+        }
+
+        if (WordValidator != null && !WordValidator(ReadRow(currentRow)))
+        {
+            if (InvalidWord != null)
+            {
+                InvalidWord(currentRow);
+            }
+            return;
+        }
+
+        bool isCorrect = false;
         if (verifier != null)
         {
-            bool isCorrect = verifier.VerifyRow(currentRow);
-            if (isCorrect)
-            {
-                // Word found — stop here, no more typing accepted.
-                solved = true;
-                return;
-            }
+            isCorrect = verifier.VerifyRow(currentRow);
+        }
+
+        if (RowSubmitted != null)
+        {
+            RowSubmitted(currentRow, isCorrect);
+        }
+
+        if (isCorrect)
+        {
+            // Word found — stop here, no more typing accepted.
+            solved = true;
+            RefreshCursor();
+            return;
         }
 
         if (currentRow + 1 >= generator.rows)
         {
             // Already on the last row and still not solved.
+            if (verifier != null)
+            {
+                failed = true;
+                RefreshCursor();
+                if (OutOfTries != null)
+                {
+                    OutOfTries();
+                }
+            }
             return;
         }
 
         currentRow++;
         currentColumn = 0;
+        RefreshCursor();
+    }
+
+    /// <summary>The typed letters of one row as an upper-case string.</summary>
+    public string ReadRow(int row)
+    {
+        var sb = new System.Text.StringBuilder();
+        for (int c = 0; c < generator.columns; c++)
+        {
+            int index = IndexFor(row, c);
+            if (index >= 0 && index < generator.Cells.Count)
+            {
+                string t = generator.Cells[index].text;
+                if (!string.IsNullOrEmpty(t))
+                {
+                    sb.Append(char.ToUpperInvariant(t[0]));
+                }
+            }
+        }
+        return sb.ToString();
+    }
+
+    /// <summary>Highlights the tile that will receive the next letter.</summary>
+    public void RefreshCursor()
+    {
+        cursorDirty = false;
+        if (generator == null || generator.Cells == null)
+        {
+            return;
+        }
+        int active = (!Finished && InputEnabled && currentColumn < generator.columns) ? IndexFor(currentRow, currentColumn) : -1;
+        for (int i = 0; i < generator.Cells.Count; i++)
+        {
+            WordleTileView tile = TileAt(i);
+            if (tile != null)
+            {
+                tile.SetCursor(i == active);
+            }
+        }
     }
 }

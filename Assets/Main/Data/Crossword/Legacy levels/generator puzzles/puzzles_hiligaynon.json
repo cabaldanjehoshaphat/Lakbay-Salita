@@ -1,0 +1,202 @@
+[
+  {
+    "level": 1,
+    "language": "Hiligaynon",
+    "size": 5,
+    "targetWords": 5,
+    "wordCount": 5,
+    "rows": ["HAIN#", "#B##R", "GLADI", "#A##M", "KWAHO"],
+    "across": [
+      { "number": 1, "row": 0, "col": 0, "answer": "HAIN", "clue": "where, at, or in, what place?", "definition": "Where, at, or in, what place?" },
+      { "number": 4, "row": 2, "col": 0, "answer": "GLADI", "clue": "A kind of dágmay that is usually fed to pigs", "definition": "A kind of dágmay that is usually fed to pigs." },
+      { "number": 5, "row": 4, "col": 0, "answer": "KWAHO", "clue": "rennet, maw, especially the yellowish membrane", "definition": "Rennet, maw, especially the yellowish membrane of a chicken's crop which is often used as a remedy for boils, ulcers, etc." }
+    ],
+    "down": [
+      { "number": 2, "row": 0, "col": 1, "answer": "ABLAW", "clue": "affability, friendliness", "definition": "Affability, friendliness; sociability; to be or become affable; friendly, sociable." },
+      { "number": 3, "row": 1, "col": 4, "answer": "RIMO", "clue": "oar", "definition": "Oar; to row, paddle; to harm, injure; soil, make dirty." }
+    ]
+  },
+  {
+    "level": 2,
+    "language": "Hiligaynon",
+    "size": 6,
+    "targetWords": 6,
+    "wordCount": 6,
+    "rows": ["#LUPOG", "#U#A#I", "#B#S#N", "BALID#", "#N#N##", "#GIOB#"],
+    "across": [
+      { "number": 1, "row": 0, "col": 1, "answer": "LUPOG", "clue": "lame, crippled, halt, maimed", "definition": "Lame, crippled, halt, maimed; to become lame, etc." },
+      { "number": 4, "row": 3, "col": 0, "answer": "BALID", "clue": "A kind of melon", "definition": "A kind of melon." },
+      { "number": 5, "row": 5, "col": 1, "answer": "GIOB", "clue": "hole, hollow, cavity", "definition": "Hole, hollow, cavity." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 1, "answer": "LUBANG", "clue": "A kind of rice", "definition": "A kind of rice." },
+      { "number": 2, "row": 0, "col": 3, "answer": "PASINO", "clue": "thought, idea, opinion", "definition": "Thought, idea, opinion; to think, opine." },
+      { "number": 3, "row": 0, "col": 5, "answer": "GIN", "clue": "gina-, Particles prefixed to verbs and denoting", "definition": "Gina-, Particles prefixed to verbs and denoting the Perfect and Present Passive respectively, e.g. silíng-to say." }
+    ]
+  },
+  {
+    "level": 3,
+    "language": "Hiligaynon",
+    "size": 6,
+    "targetWords": 6,
+    "wordCount": 6,
+    "rows": ["HIAS##", "U#L###", "L#S#F#", "ALAMAK", "W###M#", "#GIHA#"],
+    "across": [
+      { "number": 1, "row": 0, "col": 0, "answer": "HIAS", "clue": "decoration, embellishment, adornment, finery", "definition": "Decoration, embellishment, adornment, finery, trinket, jewel, jewelry, jewellery; to adorn, decorate, embellish, array, beautify, clothe with more than ordinary elegance." },
+      { "number": 4, "row": 3, "col": 0, "answer": "ALAMAK", "clue": "light and easily inflammable material, kindling", "definition": "Light and easily inflammable material, kindling." },
+      { "number": 5, "row": 5, "col": 1, "answer": "GIHA", "clue": "an irregular hole, gap", "definition": "An irregular hole, gap, opening or apperture in a roof, floor, partition or the like; to make such a hole." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 0, "answer": "HULAW", "clue": "to cease, stop, give over, leave off", "definition": "To cease, stop, give over, leave off (of rain); die down, burn out (of fire)" },
+      { "number": 2, "row": 0, "col": 2, "answer": "ALSA", "clue": "A rise in price", "definition": "A rise in price; the raising of merchandise, money, etc. on credit; to raise, lift, hoist; to get on credit." },
+      { "number": 3, "row": 2, "col": 4, "answer": "FAMA", "clue": "fame, reputation, renown, report, rumour, name", "definition": "Fame, reputation, renown, report, rumour, name." }
+    ]
+  },
+  {
+    "level": 4,
+    "language": "Hiligaynon",
+    "size": 7,
+    "targetWords": 7,
+    "wordCount": 7,
+    "rows": ["##L#R#T", "##USISA", "##S#K#O", "#TOKAB#", "##K#D#M", "###TOLA", "######N"],
+    "across": [
+      { "number": 4, "row": 1, "col": 2, "answer": "USISA", "clue": "to examine, investigate, search, inspect", "definition": "To examine, investigate, search, inspect, explore, inquire into." },
+      { "number": 5, "row": 3, "col": 1, "answer": "TOKAB", "clue": "to turn up, lift up, to flap", "definition": "To turn up, lift up (on one side), to flap, shake in the wind, said of a broad or sheet-like object." },
+      { "number": 7, "row": 5, "col": 3, "answer": "TOLA", "clue": "to cook vegetables, boil legumes", "definition": "To cook vegetables, boil legumes, prepare vegetable dishes, boil peas and beans in the pod." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 2, "answer": "LUSOK", "clue": "pierced, destroyed with a pointed instrument", "definition": "Pierced, destroyed with a pointed instrument (of eyes); to pierce, penetrate, destroy with a pointed instrument (especially applied to the eyes)" },
+      { "number": 2, "row": 0, "col": 4, "answer": "RIKADO", "clue": "provision, especially in the way of spices", "definition": "Provision, especially in the way of spices and seasoning, condiments." },
+      { "number": 3, "row": 0, "col": 6, "answer": "TAO", "clue": "person", "definition": "A man, person, or human being." },
+      { "number": 6, "row": 4, "col": 6, "answer": "MAN", "clue": "also, too, as well as", "definition": "Also, too, as well as; well! now! Look here! Nagupúd man ikáw sa íya? Did you also accompany him? Siá malúyag magkádto man." }
+    ]
+  },
+  {
+    "level": 5,
+    "language": "Hiligaynon",
+    "size": 7,
+    "targetWords": 8,
+    "wordCount": 8,
+    "rows": ["##H#P#M", "#PIGANG", "##M#K#A", "#YASPI#", "##L#A#N", "##ANKLA", "HOY###M"],
+    "across": [
+      { "number": 4, "row": 1, "col": 1, "answer": "PIGANG", "clue": "to extend by spreading, to spread all over", "definition": "To extend by spreading, to spread all over, applied especially to skin-diseases like katúl." },
+      { "number": 5, "row": 3, "col": 1, "answer": "YASPI", "clue": "to be or become pale, pallid, blanched", "definition": "To be or become pale, pallid, blanched, etc." },
+      { "number": 7, "row": 5, "col": 2, "answer": "ANKLA", "clue": "anchor", "definition": "Anchor; to anchor." },
+      { "number": 8, "row": 6, "col": 0, "answer": "HOY", "clue": "an exclamation to draw one's attention", "definition": "An exclamation to draw one's attention." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 2, "answer": "HIMALAY", "clue": "to start building a house", "definition": "To start building a house, lay the foundation of something, begin, commence; to take formal possession of a new house, celebrate a house-warming." },
+      { "number": 2, "row": 0, "col": 4, "answer": "PAKPAK", "clue": "the wing, pinion, pen", "definition": "The wing, pinion, pen (of a bird); to knock, beat, brush or rub off (as dust, ants, etc. from clothes, etc.)" },
+      { "number": 3, "row": 0, "col": 6, "answer": "MGA", "clue": "about, almost, nearly", "definition": "About, almost, nearly; the sign for the plural, e.g. ang idô-the dog; ang mga idô-the dogs; iníng káhoy-this tree; iníng mga káhoy-these trees." },
+      { "number": 6, "row": 4, "col": 6, "answer": "NAM", "clue": "often stands for nagpam", "definition": "Often stands for nagpam-. See under nagapam." }
+    ]
+  },
+  {
+    "level": 6,
+    "language": "Hiligaynon",
+    "size": 8,
+    "targetWords": 8,
+    "wordCount": 8,
+    "rows": ["BINLUD#R", "#G#####U", "BALISKOG", "##U##A#M", "#UPONG#A", "##A##A#K", "HUGPAY##", "##I#####"],
+    "across": [
+      { "number": 1, "row": 0, "col": 0, "answer": "BINLUD", "clue": "small particles of hulled rice", "definition": "Small particles of hulled rice." },
+      { "number": 4, "row": 2, "col": 0, "answer": "BALISKOG", "clue": "vertebra, spine, backbone", "definition": "Vertebra, spine, backbone, vertebral column: anything that stiffens or strengthens." },
+      { "number": 7, "row": 4, "col": 1, "answer": "UPONG", "clue": "A bundle, bunch, two handfuls", "definition": "A bundle, bunch, two handfuls, particularly applied to rice harvested with the kayóg; to arrange in bunches, etc." },
+      { "number": 8, "row": 6, "col": 0, "answer": "HUGPAY", "clue": "to abate, mollify, pacify", "definition": "To abate, mollify, pacify." }
+    ],
+    "down": [
+      { "number": 2, "row": 0, "col": 1, "answer": "IGA", "clue": "A prefix used:- 1.) in forming all", "definition": "A prefix used:- 1.) in forming all the passive tenses of many verbs having a passive in \"i\"." },
+      { "number": 3, "row": 0, "col": 7, "answer": "RUGMAK", "clue": "to crush, smash, break in pieces", "definition": "To crush, smash, break in pieces." },
+      { "number": 5, "row": 2, "col": 2, "answer": "LUPAGI", "clue": "to sit down cross-legged, to sit tailor-fashion", "definition": "To sit down cross-legged, to sit tailor-fashion." },
+      { "number": 6, "row": 2, "col": 5, "answer": "KAGAY", "clue": "A kind of vine", "definition": "A kind of vine." }
+    ]
+  },
+  {
+    "level": 7,
+    "language": "Hiligaynon",
+    "size": 8,
+    "targetWords": 9,
+    "wordCount": 9,
+    "rows": ["#KESO###", "##N##S##", "##TATAT#", "##R##P##", "#KARBON#", "#I####E#", "#KAMI#N#", "#I###TAG"],
+    "across": [
+      { "number": 1, "row": 0, "col": 1, "answer": "KESO", "clue": "cheese", "definition": "Cheese." },
+      { "number": 4, "row": 2, "col": 2, "answer": "TATAT", "clue": "to speak very fluently or volubly", "definition": "To speak very fluently or volubly; to know a language well, speak a language with ease (facility)" },
+      { "number": 5, "row": 4, "col": 1, "answer": "KARBON", "clue": "coal", "definition": "Coal; papel de carbón-carbon paper." },
+      { "number": 7, "row": 6, "col": 1, "answer": "KAMI", "clue": "we, excluding the person addressed or spoken to", "definition": "We, excluding the person addressed or spoken to." },
+      { "number": 8, "row": 7, "col": 5, "answer": "TAG", "clue": "A distributive particle", "definition": "A distributive particle." }
+    ],
+    "down": [
+      { "number": 2, "row": 0, "col": 2, "answer": "ENTRA", "clue": "to go in, enter, come in", "definition": "To go in, enter, come in; to participate-, share-, partake-, join-, take part-, in." },
+      { "number": 3, "row": 1, "col": 5, "answer": "SAPO", "clue": "to come in, rise, increase", "definition": "To come in, rise, increase (of the tide); to come upon, light upon, happen upon, find out, detect, notice by chance, become cognizant or aware of." },
+      { "number": 5, "row": 4, "col": 1, "answer": "KIKI", "clue": "tartar, the film that collects on the teeth", "definition": "Tartar, the film that collects on the teeth and which is easily removed by cleaning the teeth frequently." },
+      { "number": 6, "row": 4, "col": 6, "answer": "NENA", "clue": "A girl infant, darling, baby, girl", "definition": "A girl infant, darling, baby, girl (as a term of endearment)" }
+    ]
+  },
+  {
+    "level": 8,
+    "language": "Hiligaynon",
+    "size": 9,
+    "targetWords": 10,
+    "wordCount": 10,
+    "rows": ["I#####T##", "D#SABNIT#", "AGI###G##", "S#N#K#L##", "#PAMASAW#", "T#L#T#P##", "I#ASERA##", "K#Y###K##", "INOT#####"],
+    "across": [
+      { "number": 3, "row": 1, "col": 2, "answer": "SABNIT", "clue": "to sneak, grab, purloin", "definition": "To sneak, grab, purloin, snatch away stealthily, seize suddenly or furtively." },
+      { "number": 4, "row": 2, "col": 0, "answer": "AGI", "clue": "passage, trace, incident, event", "definition": "Passage, trace, incident, event; to go by, pass by, pass through; soft, effeminate, not manly, said of men with feminine voice and manners, hermaphrodite." },
+      { "number": 6, "row": 4, "col": 1, "answer": "PAMASAW", "clue": "freq", "definition": "Freq. and Caus. of másaw-to feast, eat well, etc." },
+      { "number": 8, "row": 6, "col": 2, "answer": "ASERA", "clue": "side-walk, pavement", "definition": "Side-walk, pavement; row of houses along both sides of a street." },
+      { "number": 9, "row": 8, "col": 0, "answer": "INOT", "clue": "to spend economically, live frugally, thriftily", "definition": "To spend economically, live frugally, thriftily." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 0, "answer": "IDAS", "clue": "row, line, file, range, rank, tier", "definition": "Row, line, file, range, rank, tier; to line up, stand in file, form a regular line or row." },
+      { "number": 2, "row": 0, "col": 6, "answer": "TIGLAPAK", "clue": "A spring-trap", "definition": "A spring-trap; provided with a spring, catching (that catches) by means of a spring." },
+      { "number": 3, "row": 1, "col": 2, "answer": "SINALAYO", "clue": "social relations, life or intercourse, family life", "definition": "Social relations, life or intercourse, family life; to live, spend one's life, pass one's days, have social relations or intercourse." },
+      { "number": 5, "row": 3, "col": 4, "answer": "KATE", "clue": "A measure for sugar, etc", "definition": "A measure for sugar, etc., equal to about two thirds of a kilo." },
+      { "number": 7, "row": 5, "col": 0, "answer": "TIKI", "clue": "small, little, tiny", "definition": "Small, little, tiny; the ordinary lizard." }
+    ]
+  },
+  {
+    "level": 9,
+    "language": "Hiligaynon",
+    "size": 9,
+    "targetWords": 10,
+    "wordCount": 10,
+    "rows": ["A#SAGAKAD", "L#U#####U", "BUGRONGAN", "U#I###A#G", "MALANGKAG", "##A###I#O", "#ENTRADA#", "##O####G#", "MANGHATI#"],
+    "across": [
+      { "number": 2, "row": 0, "col": 2, "answer": "SAGAKAD", "clue": "discordant, disagreeing, unharmonious, not keeping time", "definition": "Discordant, disagreeing, unharmonious, not keeping time; to be discordant, etc." },
+      { "number": 4, "row": 2, "col": 0, "answer": "BUGRONGAN", "clue": "very fleshy, very fat, double-chinned", "definition": "Very fleshy, very fat, double-chinned, very plump as to the cheeks." },
+      { "number": 6, "row": 4, "col": 0, "answer": "MALANGKAG", "clue": "anxious, desirous of, expectant, worried", "definition": "Anxious, desirous of, expectant, worried, weary, disappointed, tired of waiting." },
+      { "number": 7, "row": 6, "col": 1, "answer": "ENTRADA", "clue": "entrance, opening", "definition": "Entrance, opening; entrée, entrance-fee, admission." },
+      { "number": 9, "row": 8, "col": 0, "answer": "MANGHATI", "clue": "twenty-five centavos each, costing twenty-five centavos", "definition": "Twenty-five centavos each, costing twenty-five centavos." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 0, "answer": "ALBUM", "clue": "album", "definition": "Album." },
+      { "number": 2, "row": 0, "col": 2, "answer": "SUGILANON", "clue": "conversation, talk, chat", "definition": "Conversation, talk, chat; to chat, have a conversation, talk to each other." },
+      { "number": 3, "row": 0, "col": 8, "answer": "DUNGGO", "clue": "to attack, assail, fasten on, take", "definition": "To attack, assail, fasten on, take, afflict with, strike, lay low, get hold of, (said of a disease)" },
+      { "number": 5, "row": 2, "col": 6, "answer": "GAKID", "clue": "to rope, cord, bind", "definition": "To rope, cord, bind." },
+      { "number": 8, "row": 6, "col": 7, "answer": "AGI", "clue": "passage, trace, incident, event", "definition": "Passage, trace, incident, event; to go by, pass by, pass through; soft, effeminate, not manly, said of men with feminine voice and manners, hermaphrodite." }
+    ]
+  },
+  {
+    "level": 10,
+    "language": "Hiligaynon",
+    "size": 10,
+    "targetWords": 11,
+    "wordCount": 11,
+    "rows": ["###P#D####", "SERADURA##", "I##B#L####", "HURARAY##K", "A##R#H#UYA", "Y#HABOT##T", "##U##T###U", "#AGAW####H", "##A######A", "##KARAYKAY"],
+    "across": [
+      { "number": 3, "row": 1, "col": 0, "answer": "SERADURA", "clue": "lock", "definition": "Lock; closure." },
+      { "number": 4, "row": 3, "col": 0, "answer": "HURARAY", "clue": "end, termination", "definition": "End, termination; rest, interruption, pause, stop." },
+      { "number": 6, "row": 4, "col": 7, "answer": "UYA", "clue": "A disease of the nose", "definition": "A disease of the nose; polypus; plentiful; to be plentiful, abound, be many." },
+      { "number": 7, "row": 5, "col": 2, "answer": "HABOT", "clue": "worn-out, used-up, exhausted, dead-beat, done-up", "definition": "Worn-out, used-up, exhausted, dead-beat, done-up; to wear out, etc." },
+      { "number": 8, "row": 7, "col": 1, "answer": "AGAW", "clue": "usurper", "definition": "Usurper; one who takes (or is accustomed to take) things by force; highhanded, overbearing, violent." },
+      { "number": 9, "row": 9, "col": 2, "answer": "KARAYKAY", "clue": "to scratch and scatter", "definition": "To scratch and scatter (rice, corn, etc. as chickens, rats, etc. do); to bring into disorder, disarrange by trampling upon, by shuffling or stirring levelled off grains, peas and beans, sand or the." }
+    ],
+    "down": [
+      { "number": 1, "row": 0, "col": 3, "answer": "PABARA", "clue": "cheap, low-priced, costing little", "definition": "Cheap, low-priced, costing little; to be, become or make cheap, to cheapen." },
+      { "number": 2, "row": 0, "col": 5, "answer": "DULAHOT", "clue": "to baste, tack, sew with long or wide stitches", "definition": "To baste, tack, sew with long or wide stitches." },
+      { "number": 3, "row": 1, "col": 0, "answer": "SIHAY", "clue": "different, not the same, not like, unlike, dissimilar", "definition": "Different, not the same, not like, unlike, dissimilar; to deviate, differ from, take a different turn or road." },
+      { "number": 5, "row": 3, "col": 9, "answer": "KATUHAY", "clue": "difference, dissimilarity, distinction", "definition": "Difference, dissimilarity, distinction, quality of not being the same or not belonging to the same class or kind." },
+      { "number": 7, "row": 5, "col": 2, "answer": "HUGAK", "clue": "loosely tied, loose, slack, not tight", "definition": "Loosely tied, loose, slack, not tight; relaxed; to tie loosely." }
+    ]
+  }
+]
